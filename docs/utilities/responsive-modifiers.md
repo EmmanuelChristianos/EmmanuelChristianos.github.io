@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Responsive Modifiers
+search_exclude: true
 parent: Utilities
 ---
 
