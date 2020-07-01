@@ -66,10 +66,11 @@ aux_links_new_tab: false
 nav_sort: case_insensitive # default, equivalent to nil
 # nav_sort: case_sensitive # Capital letters sorted before lowercase
 
+---
 layout: default
-title: configuration
-nav_exclude: true
-
+title: Customization
+nav_order: 4
+---
 
 
 # Footer content
