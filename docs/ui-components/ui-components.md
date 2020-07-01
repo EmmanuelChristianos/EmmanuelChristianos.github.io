@@ -4,6 +4,7 @@ title: UI Components
 nav_order: 3
 has_children: true
 nav_exclude: true
+search_exclude: true
 permalink: /docs/ui-components
 ---
 
