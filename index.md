@@ -28,4 +28,3 @@ Breaking & Entering is an educational blog devoted to researching, learning and 
 ### Education
 ### Certificiates
 ### Contact Information
-
