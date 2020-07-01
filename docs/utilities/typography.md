@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Typography
+search_exclude: true
 parent: Utilities
 ---
 
