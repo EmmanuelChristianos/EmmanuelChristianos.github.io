@@ -2,6 +2,7 @@
 layout: default
 title: Buttons
 parent: UI Components
+search_exclude: true
 nav_order: 2
 ---
 
