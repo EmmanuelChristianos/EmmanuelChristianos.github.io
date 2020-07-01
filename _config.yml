@@ -32,8 +32,8 @@ permalink:    /:year-:month-:day/:title
 paginate:     5
 
 # Build settings
-#theme: minima
-remote_theme: chesterhow/tale
+theme: minima
+#remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
   - jekyll-paginate
