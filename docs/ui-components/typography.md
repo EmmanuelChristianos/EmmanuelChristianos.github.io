@@ -2,6 +2,7 @@
 layout: default
 title: Typography
 parent: UI Components
+search_exclude: true
 nav_order: 1
 ---
 
