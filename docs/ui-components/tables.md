@@ -2,6 +2,7 @@
 layout: default
 title: Tables
 parent: UI Components
+search_exclude: true
 nav_order: 4
 ---
 
