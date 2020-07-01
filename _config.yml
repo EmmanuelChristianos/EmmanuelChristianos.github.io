@@ -28,9 +28,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
 theme: just-the-docs
 # Build settings
 #remote_theme: chesterhow/tale
