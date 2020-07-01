@@ -31,8 +31,8 @@ github_username:  jekyll
 permalink:    /:year-:month-:day/:title
 paginate:     5
 
+theme: just-the-docs
 # Build settings
-theme: minima
 #remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
