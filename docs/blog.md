@@ -9,7 +9,7 @@ nav_order: 2
 <div class="code-example" markdown="1">
 
 <span>
-[Binary Exploitation](http://example.com/){: .btn .btn-purple .fs-6 .ml-1 .px-10 .py-4}
+[Binary Exploitation](http://example.com/){: .btn .btn-purple .fs-6 .ml-1 .px-8 .py-4}
 </span>
 
 <span>
