@@ -13,7 +13,7 @@ nav_order: 2
 </span>
 
 <span>
-[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-7 .py-4 .ml-1}
+[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-6 .py-4 .ml-1}
 </span>
 
 <span>
@@ -21,7 +21,7 @@ nav_order: 2
 </span>
 
 <span>
-[General Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
+[General   Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
 </span>
 
 </div>
