@@ -24,8 +24,8 @@ nav_order: 2
 <div class="code-example" markdown="1">
 [Link button](http://example.com/){: .btn .fs-10 .mx-auto}
 
-[Link button](http://example.com/){: .btn .btn-purple .fs-10 .flex-justify-between}
-[Link button](http://example.com/){: .btn .btn-blue .fs-10 .mx-auto}
+[Link button](http://example.com/){: .btn .btn-purple .fs-10 .mr-8}
+[Link button](http://example.com/){: .btn .btn-blue .fs-10 .mr-4}
 [Link button](http://example.com/){: .btn .btn-green .fs-10 .mx-auto}
 
 [Link button](http://example.com/){: .btn .btn-outline .fs-10 .mx-auto }
