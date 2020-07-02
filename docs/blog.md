@@ -22,13 +22,13 @@ nav_order: 2
 ### Links that look like buttons
 
 <div class="code-example" markdown="1">
-[Link button](http://example.com/){: .btn .fs-10 .mx-auto}
+[Link button](http://example.com/){: .btn .fs-6 .mx-auto}
 
-[Link button](http://example.com/){: .btn .btn-purple .fs-7 .mr-auto}
-[Link button](http://example.com/){: .btn .btn-blue .fs-10 .mr-4}
-[Link button](http://example.com/){: .btn .btn-green .fs-10 .mx-auto}
+[Link button](http://example.com/){: .btn .btn-purple .fs-6 .mr-auto}
+[Link button](http://example.com/){: .btn .btn-blue .fs-6 .mr-auto}
+[Link button](http://example.com/){: .btn .btn-green .fs-6 .mr-auto}
 
-[Link button](http://example.com/){: .btn .btn-outline .fs-10 .mx-auto }
+[Link button](http://example.com/){: .btn .btn-outline .fs-6 .mr-auto }
 </div>
 ```markdown
 [Link button](http://example.com/){: .btn }
