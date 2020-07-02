@@ -24,6 +24,11 @@ nav_order: 2
 [General   Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
 </span>
 
+<span>
+
+<button type="button" name="button" class="btnc">Button element</button>
+</span>
+
 </div>
 
 
