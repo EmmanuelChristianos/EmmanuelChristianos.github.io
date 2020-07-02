@@ -24,7 +24,7 @@ nav_order: 2
 <div class="code-example" markdown="1">
 [Link button](http://example.com/){: .btn }
 
-[Link button](http://example.com/){: .btn .btn-purple .fs-10}
+[Link button](http://example.com/){: .btn .btn-purple .fs-10 .mx-auto}
 [Link button](http://example.com/){: .btn .btn-blue }
 [Link button](http://example.com/){: .btn .btn-green }
 
