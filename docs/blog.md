@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Blog
+title: Buttons
+parent: UI Components
+search_exclude: true
 nav_order: 2
 ---
 
-# Blog
+# Buttons
 {: .no_toc }
-
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -19,125 +17,83 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
+## Basic button styles
 
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
+### Links that look like buttons
 
-## Site logo
+<div class="code-example" markdown="1">
+[Link button](http://example.com/){: .btn }
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+[Link button](http://example.com/){: .btn .btn-purple }
+[Link button](http://example.com/){: .btn .btn-blue }
+[Link button](http://example.com/){: .btn .btn-green }
+
+[Link button](http://example.com/){: .btn .btn-outline }
+</div>
+```markdown
+[Link button](http://example.com/){: .btn }
+
+[Link button](http://example.com/){: .btn .btn-purple }
+[Link button](http://example.com/){: .btn .btn-blue }
+[Link button](http://example.com/){: .btn .btn-green }
+
+[Link button](http://example.com/){: .btn .btn-outline }
 ```
 
-## Search
+### Button element
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
+GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this:
 
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
+<div class="code-example">
+<button type="button" name="button" class="btn">Button element</button>
+</div>
+```html
+<button type="button" name="button" class="btn">Button element</button>
 ```
 
-## Aux links
+---
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+## Using utilities with buttons
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+### Button size
+
+Wrap the button in a container that uses the [font-size utility classes]({{ site.baseurl }}{% link docs/utilities/typography.md %}) to scale buttons:
+
+<div class="code-example" markdown="1">
+<span class="fs-6">
+[Big ass button](http://example.com/){: .btn }
+</span>
+
+<span class="fs-3">
+[Tiny ass button](http://example.com/){: .btn }
+</span>
+</div>
+```markdown
+<span class="fs-8">
+[Link button](http://example.com/){: .btn }
+</span>
+
+<span class="fs-3">
+[Tiny ass button](http://example.com/){: .btn }
+</span>
 ```
 
-## Heading anchor links
+### Spacing between buttons
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-```
+Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
 
-## Footer content
+<div class="code-example" markdown="1">
+[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
+[Button ](http://example.com/){: .btn .btn-blue .mr-2 }
 
-```yaml
-# Footer content 
-# appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
+[Button ](http://example.com/){: .btn .btn-blue }
+</div>
+```markdown
+[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
+[Button ](http://example.com/){: .btn .btn-blue }
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-```
-
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `master`
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
-
-## Color scheme
-
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
-
-## Google Analytics
-
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
+[Button ](http://example.com/){: .btn .btn-blue }
 ```
 
