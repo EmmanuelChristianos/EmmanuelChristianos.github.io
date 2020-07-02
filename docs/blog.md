@@ -21,7 +21,7 @@ nav_order: 2
 </span>
 
 <span>
-[    General Security             ](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
+[General Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
 </span>
 
 </div>
