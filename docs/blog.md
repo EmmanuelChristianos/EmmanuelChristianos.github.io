@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Blog
-parent: UI Components
 nav_order: 2
 ---
 
-# Chapters
+#Chapters
 
 <div class="code-example" markdown="1">
 [Link button](http://example.com/){: .btn .btn-purple .fs-6 .mr-2}
