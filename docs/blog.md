@@ -9,7 +9,7 @@ nav_order: 2
 <div class="code-example" markdown="1">
 
 <span>
-[Binary Exploitations](http://example.com/){: .btn .btn-purple .fs-6 .ml-1 .px-7 .py-4 .mx-auto}
+[Binary Exploitations](http://example.com/){: .btn .btn-purple .fs-6 .ml-1 .px-7 .py-4}
 </span>
 
 <span>
@@ -17,11 +17,11 @@ nav_order: 2
 </span>
 
 <span>
-[ C Exploitations ](http://example.com/){: .btn .btn-green .fs-6 .ml-1 .py-4 .px-10 }
+[ C Exploitations ](http://example.com/){: .btn .btn-green .fs-6 .ml-1 .py-4 .px-10}
 </span>
 
 <span>
-[General   Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-9 .py-4 ml-1}
+[General   Security](http://example.com/){: .btnc .bg-yellow .fs-6 .px-9 .py-4 ml-1}
 </span>
 
 </div>
