@@ -13,7 +13,7 @@ nav_order: 2
 </span>
 
 <span>
-[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-6 .py-4 .ml-1}
+[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-5 .py-4 .ml-1}
 </span>
 
 <span>
@@ -21,12 +21,7 @@ nav_order: 2
 </span>
 
 <span>
-[General   Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-10 .py-4 ml-1}
-</span>
-
-<span>
-
-<button type="button" name="button" class="btnc">Button element</button>
+[General   Security](http://example.com/){: .btn .bg-yellow .fs-6 .px-9 .py-4 ml-1}
 </span>
 
 </div>
