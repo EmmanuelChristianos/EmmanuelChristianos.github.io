@@ -9,19 +9,19 @@ nav_order: 2
 <div class="code-example" markdown="1">
 
 <span>
-[Binary Exploitations](http://example.com/){: .btn .btn-purple .fs-6 .ml-1}
+[Binary Exploitations](http://example.com/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 
 <span>
-[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .ml-1}
+[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-5 .py-4 .text-center .d-block}
 </span>
 
 <span>
-[ C Exploitations ](http://example.com/){: .btn .btn-green .fs-6 .ml-1}
+[C Exploitations](http://example.com/){: .btn .btn-green .fs-6 .px-10 .py-4 .text-center .d-block}
 </span>
 
 <span>
-[General   Security](http://example.com/){: .btn .bg-purple .fs-6  ml-1}
+[General Security](http://example.com/){: .btn .bg-purple .px-9 .fs-6 .py-4 .text-center .d-block}
 </span>
 
 </div>
