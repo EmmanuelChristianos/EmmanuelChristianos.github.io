@@ -11,19 +11,19 @@ permalink: docs/blog
 <div class="code-example" markdown="1">
 
 <span>
-[Binary Exploitations](http://example.com/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[Binary Exploitations](https://emmanuelchristianos.github.io//docs/blog/binaryExploit/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 
 <span>
-[Industry Certifications](http://example.com/){: .btn .btn-blue .fs-6 .px-5 .py-4 .text-center .d-block}
+[Industry Certifications](https://emmanuelchristianos.github.io//docs/blog/certifications/){: .btn .btn-blue .fs-6 .px-5 .py-4 .text-center .d-block}
 </span>
 
 <span>
-[C Exploitations](http://example.com/){: .btn .btn-green .fs-6 .px-10 .py-4 .text-center .d-block}
+[C Exploitations](https://emmanuelchristianos.github.io//docs/blog/cexploits/){: .btn .btn-green .fs-6 .px-10 .py-4 .text-center .d-block}
 </span>
 
 <span>
-[General Security](http://example.com/){: .btn .bg-purple .px-9 .fs-6 .py-4 .text-center .d-block}
+[Network Infrastructure](https://emmanuelchristianos.github.io//docs/blog/networking/){: .btn .bg-purple .px-9 .fs-6 .py-4 .text-center .d-block}
 </span>
 
 </div>
