@@ -39,7 +39,3 @@ Upon accessing the website you acknowledge that neither the website nor authors 
 {: .fs-5 .fw-200 }
 
 ---
-## About Me
-### Education
-### Certificates
-### Contact Information

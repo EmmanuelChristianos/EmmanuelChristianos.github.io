@@ -28,4 +28,8 @@ permalink: docs/blog
 
 </div>
 
+---
 
+##Chapter Structure
+
+Chapters encapsulate a topic or concept that can be broken down extensively. 

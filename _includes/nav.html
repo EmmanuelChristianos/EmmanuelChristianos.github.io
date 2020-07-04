@@ -1,3 +1,5 @@
+<img id= "logo" src="assets/images/logo.png" width="200" height="200">
+
 <ul class="nav-list">
   {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" -%}
   {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" -%}
