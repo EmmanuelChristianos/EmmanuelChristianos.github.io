@@ -1,6 +1,5 @@
-<img id= "logo" src="assets/images/logo.png" width="200" height="200">
-
 <ul class="nav-list">
+  <img id= "logo" src="https://emmanuelchristianos.github.io//assets/images/logo.png" width="200" height="200">
   {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" -%}
   {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" -%}
   {%- if site.nav_sort == 'case_insensitive' -%}
