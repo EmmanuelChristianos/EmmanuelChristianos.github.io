@@ -37,5 +37,3 @@ Breaking&Entering serves the purpose of educating individuals about security con
 ### Consent
 Upon accessing the website you acknowledge that neither the website nor authors are liable in any way for any consequences that your actions may incur. Upon entering the website you agree that you will use the information provided on the website in good faith only.
 {: .fs-5 .fw-200 }
-
----
