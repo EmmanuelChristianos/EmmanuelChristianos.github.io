@@ -8,6 +8,7 @@ permalink: docs/blog
 ---
 
 # Chapters
+{: .fs-8 .fw-400 }
 
 <div class="code-example" markdown="1">
 
