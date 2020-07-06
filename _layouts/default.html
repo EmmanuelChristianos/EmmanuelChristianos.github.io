@@ -105,8 +105,8 @@ layout: table_wrappers
         {% else %}
           {{ content }}
         {% endif %}
-
-        {% if page.has_children == true and page.has_toc != false %}
+	<!-- CHANGE '1=2' IN THE LINE BELOW TO INCLUDE TOC IN PAGES THAT HAVE CHILDREN -->
+        {% if page.has_children == true and page.has_toc != false  and 1=2%}
           <hr>
           <h2 class="text-delta">Table of contents</h2>
           <ul>
