@@ -38,7 +38,84 @@ Networking Fundamentals follows a more theory based approach and doesn't involve
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
 
+The exercises in this chapter and their corresponding instructions have been completed on a Linux system. If you already are using Linux then you can move onto the [Application Installation](#application-installation){:.fs-3 .md-0 .mr-2 }section to install the required software.
+
+If you are working on an OS other than Linux I will be detailing two ways to replicate the Linux environment used in this chapter. The first will be using [Docker](#docker-installation-and-setup){:.fs-3 .md-0 .mr-2 }and the second will be using [VMWare](#vmware-installation-and-setup){:.fs-3 .md-0 .mr-2 }. Both can be downloaded an set up on any major operating system.
+
+#### Docker Installation and Setup
+{: .fs-5 .fw-200 .d-inline-block}
+
+Setup
+{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
+
+<details>
+
+	<summary> NOTICE: Instruction May Change! </summary>
+
+
+(Notice: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
+
+Dockers installation and set up process is subject to change by Docker and so the instructions below detail the steps to install and set up Docker at the time of making this chapter.
+
+It is highly unlikely that the Docker commands themselves will change. However the design on the website will likely change over time.
+
+If the following steps do not work for you then at the end of the steps there will be a more generalized guide to setting up Docker.)
+</details>
+<style type="text/css">
+
+details {
+	border-radius: 3px;
+    background: #EEE;
+}
+
+details summary {
+    font-size: 17px;
+    vertical-align: top;
+    background: #333;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary:before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-icon-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+details[open] summary:before {
+    background-position: -18px 0;
+}
+
+details[open] summary {
+    background: #69c773;
+    color: #333;
+}
+
+</style>
+
+1) Go to www.docker.com and click on the 'Get Started '
+{: .d-block}
+
+#### VMWare Installation and Setup
+{: .fs-5 .fw-200 .d-inline-block}
+
+Setup
+{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
+
 Coming
+
 {: .d-block}
 
 
