@@ -50,28 +50,33 @@ Setup
 
 <details>
 
-	<summary> NOTICE: Instruction May Change! </summary>
+	<summary> NOTICE: Instruction May Change! [click]</summary>
 
 
 (Notice: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
-
+<br>
+<br>
 Dockers installation and set up process is subject to change by Docker and so the instructions below detail the steps to install and set up Docker at the time of making this chapter.
-
+<br>
+<br>
 It is highly unlikely that the Docker commands themselves will change. However the design on the website will likely change over time.
-
+<br>
+<br>
 If the following steps do not work for you then at the end of the steps there will be a more generalized guide to setting up Docker.)
 </details>
+{: .fs-4 .fw-300 }
 <style type="text/css">
 
 details {
 	border-radius: 3px;
-    background: #EEE;
+    background: #C7B7F1;
+    color: black;
 }
 
 details summary {
     font-size: 17px;
     vertical-align: top;
-    background: #333;
+    background: #7F61EF;
     color: #FFF;
     border-radius: 3px;
     padding: 5px 10px;
@@ -83,29 +88,25 @@ details summary::-webkit-details-marker {
     display: none;
 }
 
-details summary:before {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin-right: 8px;
-    content: "";
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-icon-sprite.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}
-
 details[open] summary:before {
     background-position: -18px 0;
 }
 
 details[open] summary {
-    background: #69c773;
-    color: #333;
+    background: #6C47EF;
+    color: #fff;
 }
 
 </style>
 
-1) Go to www.docker.com and click on the 'Get Started '
+1) Go to www.docker.com and click on the 'Get Started'
+2) For Docker Desktop click 'download for [whatever your OS is]'
+
+<p>
+	
+	<img src="https://emmanuelchristianos.github.io/assets/images/networking/docker1.png">
+</p>
+
 {: .d-block}
 
 #### VMWare Installation and Setup
