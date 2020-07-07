@@ -154,7 +154,7 @@ Some Mac users might receive a warning saying 'Docker' can't be opened because i
 </p>
 
 <p id="warningP">
-4. At the bottom of the 'General' tab you should see the unidentified developer warning for docker with a button next to it that says 'Open Anyway'
+4. At the bottom of the 'General' tab you should see the unidentified developer warning for docker with a button next to it that says 'Open Anyway' click 'Open Anyway'
 </p>
 </details>
 
@@ -201,22 +201,16 @@ exit
 ```
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuexit.png">
 
-We can verify that we have exited the Linux container by looking at the prompt
-```shell
-ls
-```
-Which lists all the files in the directory you are in. We have done this above after we entered exit and you will notice the files are different from the previous time you entered ls.
+We can verify that we have exited the Linux container by looking at the prompt. A prompt in your terminal usually holds information regarding the computer you are on. Information like the current user that is logged on etc. My actual computer prompt you can see from before we ran any of the docker commands. Once we ran the docker container a different looking prompt appeared as we were then inside the Linux container; we had a Ubuntu prompt. After we exited the prompt returned to normal. The prompt is the easiest and quickest way to determine if you are still running inside your container or not.
 
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/blurredprompt.png">
 
-You have now created an Ubuntu container using Docker. You are now currently working on a Ubuntu operating system.
+You have now created an Ubuntu container using Docker.
 
 For Windows Users docker requires some extra steps: follow along here [Docker for Windows](https://docs.docker.com/docker-for-windows/){: .fs-4 .mb-4 .mb-md-0 } or follow the VirtualBox installation of Ubuntu here [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 } which may be easier.
 
 {: .d-inline}
 </div>
-
-
 
 #### VirtualBox Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
@@ -224,8 +218,34 @@ For Windows Users docker requires some extra steps: follow along here [Docker fo
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
-Coming
+1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads) {:.fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
+2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntudownload.png">
+3. Open up virtual box
+<details>
+<summary> Warning: Unidentified Developer Solution [click]</summary>
 
+<p id="warningP">
+Some Mac users might receive a warning saying 'VirtualBox' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
+</p>
+
+<p id="warningP">
+1. Open up 'Systems Preferences'
+</p>
+
+<p id="warningP">
+2. Navigate to 'Security & Privacy'
+</p>
+
+<p id="warningP">
+3. On the menu tab at the top of the system preferences screen click the 'General' tab
+</p>
+
+<p id="warningP">
+4. At the bottom of the 'General' tab you should see the unidentified developer warning for Virtual Box with a button next to it that says 'Open Anyway', click 'Open Anyway'
+</p>
+</details>
 {: .d-block}
 
 
