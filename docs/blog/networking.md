@@ -201,7 +201,7 @@ exit
 ```
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuexit.png">
 
-We can verify that we have exited the Linux container by looking at the prompt. A prompt in your terminal usually holds information regarding the computer you are on. Information like the current user that is logged on etc. My actual computer prompt you can see from before we ran any of the docker commands. Once we ran the docker container a different looking prompt appeared as we were then inside the Linux container; we had a Ubuntu prompt. After we exited the prompt returned to normal. The prompt is the easiest and quickest way to determine if you are still running inside your container or not.
+We can verify that we have exited the Linux container by looking at the prompt. A prompt in your terminal usually holds information regarding the computer you are on. Information like the current user that is logged in etc. My actual computer prompt you can see from before we ran any of the docker commands. Once we ran the docker container a different looking prompt appeared as we were then inside the Linux container; we had a Ubuntu prompt. After we exited the container the prompt returned to normal. The prompt is the easiest and quickest way to determine if you are still running inside your container or not.
 
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/blurredprompt.png">
 
@@ -222,7 +222,7 @@ Setup
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
 2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntudownload.png">
-3. Open up virtual box
+3. Open up VirtualBox
 <details>
 <summary> Warning: Unidentified Developer Solution [click]</summary>
 
