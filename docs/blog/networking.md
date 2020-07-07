@@ -218,7 +218,7 @@ For Windows Users docker requires some extra steps: follow along here [Docker fo
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
-1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads) {:.fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
+1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads){: .fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
 2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntudownload.png">
