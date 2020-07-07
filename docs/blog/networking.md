@@ -433,8 +433,39 @@ In the picture below I've install 'dnsutils' as an example
 
 Now you have installed your packet (in my case 'dnsutils')
 {: .d-block}
-</div>
 
+Wireshark Installation
+{: .fs-5 .fw-400}
+
+We will be using Wireshark at different points throughout the chapter. To install:
+
+1. Go to [Wireshark Downloads](https://www.wireshark.org/download.html){:.fs-4 .md-0 .mr-0}
+2. Click 'Stable Release' and then click the operating system you are using
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/wiresharkinstall.png">
+3. Open it up and your set
+<details>
+<summary> Warning: Unidentified Developer Solution [click]</summary>
+
+<p id="warningP">
+Some Mac users might receive a warning saying 'Wireshark' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
+</p>
+
+<p id="warningP">
+1. Open up 'Systems Preferences'
+</p>
+
+<p id="warningP">
+2. Navigate to 'Security & Privacy'
+</p>
+
+<p id="warningP">
+3. On the menu tab at the top of the system preferences screen click the 'General' tab
+</p>
+
+<p id="warningP">
+4. At the bottom of the 'General' tab you should see the unidentified developer warning for Wireshark with a button next to it that says 'Open Anyway', click 'Open Anyway'
+</p>
+</details>
 
 <div  markdown="1">
 ## Prerequisite Knowledge
