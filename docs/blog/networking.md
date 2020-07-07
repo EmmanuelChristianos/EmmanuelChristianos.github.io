@@ -218,6 +218,8 @@ For Windows Users docker requires some extra steps: follow along here [Docker fo
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
+Setting up an Linux Virtual Machine (Which is what VirtualBox is allowing us to do) is almost identical on both windows and Mac so the steps below are universal for both operating systems.
+
 1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads){: .fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
 2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
@@ -246,7 +248,72 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 4. At the bottom of the 'General' tab you should see the unidentified developer warning for Virtual Box with a button next to it that says 'Open Anyway', click 'Open Anyway'
 </p>
 </details>
+
+<div markdown="1">
+4
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Once you have opened up VirtualBox, click the blue 'New' button at the top of the screen and you will be prompted with the page below. You want to add a name to the VirtualBox you are creating, select Linux and then select Ubuntu 64 bit. The 'Machine Folder' field is set automatically and you don't need to worry about it.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/nameVM.png">
 {: .d-block}
+</div>
+
+<div markdown="1">
+5
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Selecting the memory size. By default it is set to 102MB but I highly recommend you increase the amount of RAM you give to your machine to at lease half of the green portion. Never go into the orange or red areas.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/memsizevm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+6
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Creating a Virtual Hard disk. You will need some storage. If you don't have an existing virtual hard disk drive file elsewhere that you wish to use (which most of you wont) then click 'Create a virtual hard disk now'
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/createharddiskvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+7
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Choosing a Hard Disk File Type. It will say on the VirtualBox window, but if you do not need this hard disk for other visualization software then you can just leave it as 'VDI (VirtualBox Disk Image)'
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/diskfiletypevm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+8
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Dynamic or Fixed Size Storage? Choosing dynamic for the word in this chapter is fine since we aren't storing a lot. Since its dynamic if wont immediately take up a fixed amount of memory but rather grow as its needed.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/dynamicvm.png">
+{: .d-block}
+</div>
+
+9
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; File Location and Size? This is choosing where you are going to store your virtual hard drive which is completely up to you, as well as how big it should be. 10GB is plenty for this chapter.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/dynamicvm.png">
+{: .d-block}
+</div>
+
 
 
 ### Application Installation
