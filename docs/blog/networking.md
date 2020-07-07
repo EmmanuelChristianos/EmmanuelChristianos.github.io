@@ -407,7 +407,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 {: .d-block}
 </div>
 
-Thats it your done! Now you have a working Linux VM running on VirtualBox. For the Application Installation Section you can choose to either install the software from that section directly onto your computer or onto your VM. We allocated enough memory for your virtual hard disk drive to store the applications that are mentioned in the installation section.
+Thats it your done! Now you have a working Linux VM running on VirtualBox. For the Application Installation Section you can choose to either install software from that section directly onto your computer or onto your VM (granted that the software is compatible with the destination OS). We allocated enough memory for your virtual hard disk drive to store the applications that are mentioned in the installation section.
 {: .d-block}
 
 ### Application Installation
