@@ -4,6 +4,51 @@ title: Network Infrastructure
 parent: Blog
 ---
 
+<style type="text/css">
+
+#warningP {
+
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+
+details {
+	border-radius: 2px;
+    background: #DEDFF6;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+
+}
+
+details summary {
+    font-size: 17px;
+    vertical-align: top;
+    background: #7F61EF;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 2px 5px;
+    outline: none;
+    text-align: center;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary:before {
+    background-position: -18px 0;
+}
+
+details[open] summary {
+    background: #6C47EF;
+    color: #fff;
+}
+
+</style>
+
 # Networking Fundamentals
 {: .no_toc .fs-9}
 
@@ -28,7 +73,7 @@ The Network Fundamentals Chapter has a corresponding Github repository which con
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-0}
 
-Networking Fundamentals follows a more theory based approach and doesn't involve a lot of practical content. Majority of the practical content that does appear in the following chapter will work regardless of the operating system you are using. However if you would like to be able to follow along exactly with the instructions detailed in this chapter then you should complete the steps in the [OS Setup](#os-setup){:.fs-3 .md-0 .mr-2 }page to replicate the environment that was used by the author.
+Networking Fundamentals follows a more theory based approach and doesn't involve a lot of practical content. Majority of the practical content that does appear in the following chapter will work regardless of the operating system you are using. However if you would like to be able to follow along exactly with the instructions detailed in this chapter then you should complete the steps in the [OS Setup](#os-setup){:.fs-4 .md-0 .mr-2 }page to replicate the environment that was used by the author.
 
 {: .d-block}
 
@@ -38,9 +83,20 @@ Networking Fundamentals follows a more theory based approach and doesn't involve
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
 
-The exercises in this chapter and their corresponding instructions have been completed on a Linux system. If you already are using Linux then you can move onto the [Application Installation](#application-installation){:.fs-3 .md-0 .mr-2 }section to install the required software.
+The exercises in this chapter and their corresponding instructions have been completed on a Linux system. If you already are using Linux then you can move onto the [Application Installation](#application-installation){:.fs-4 .md-0 .mr-0 } section to install the required software.
 
-If you are working on an OS other than Linux I will be detailing two ways to replicate the Linux environment used in this chapter. The first will be using [Docker](#docker-installation-and-setup){:.fs-3 .md-0 .mr-2 }and the second will be using [VMWare](#vmware-installation-and-setup){:.fs-3 .md-0 .mr-2 }. Both can be downloaded an set up on any major operating system.
+If you are working on an OS other than Linux I will be detailing two ways to replicate the Linux environment used in this chapter. The first will be using [Docker](#docker-installation-and-setup){:.fs-4 .md-0 .mr-0 } and the second will be using [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 }. Both can be downloaded an set up on any major operating system.
+{: .d-block}
+
+
+### Docker or VirtualBox?
+{: .fs-6 .fw-400 .d-inline-block}
+
+Setup
+{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
+
+Docker will only give you a command line to use and you will have to install the applications that will be used on your own computer. VirtualBox however will give you a Graphical User Interface (GUI) for the operating system you will download. You can install the applications that we will be using on either however for some application we will be using the GUI and so if you are using Docker you will have to download that specific application on your own computer. If you use VirtualBox you can download all the application needed onto the VirtualBox we set up. 
+{: .d-block}
 
 #### Docker Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
@@ -48,68 +104,121 @@ If you are working on an OS other than Linux I will be detailing two ways to rep
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
-<details>
 
-	<summary> NOTICE: Instruction May Change! [click]</summary>
+<details >
 
+<summary> Warning: Instruction May Change! [click]</summary>
 
-(Notice: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
-<br>
-<br>
-Dockers installation and set up process is subject to change by Docker and so the instructions below detail the steps to install and set up Docker at the time of making this chapter.
-<br>
-<br>
-It is highly unlikely that the Docker commands themselves will change. However the design on the website will likely change over time.
-<br>
-<br>
-If the following steps do not work for you then at the end of the steps there will be a more generalized guide to setting up Docker.)
-</details>
-{: .fs-4 .fw-300 }
-<style type="text/css">
-
-details {
-	border-radius: 3px;
-    background: #C7B7F1;
-    color: black;
-}
-
-details summary {
-    font-size: 17px;
-    vertical-align: top;
-    background: #7F61EF;
-    color: #FFF;
-    border-radius: 3px;
-    padding: 5px 10px;
-    outline: none;
-    width: 100%;
-}
-
-details summary::-webkit-details-marker {
-    display: none;
-}
-
-details[open] summary:before {
-    background-position: -18px 0;
-}
-
-details[open] summary {
-    background: #6C47EF;
-    color: #fff;
-}
-
-</style>
-
-1) Go to www.docker.com and click on the 'Get Started'
-2) For Docker Desktop click 'download for [whatever your OS is]'
-
-<p>
-	
-	<img src="https://emmanuelchristianos.github.io/assets/images/networking/docker1.png">
+<p id="warningP">
+(Warning: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
 </p>
 
-{: .d-block}
+<p id="warningP">
+Dockers installation and set up process is subject to change by Docker and so the instructions below detail the steps to install and set up Docker at the time of making this chapter.
+</p>
 
-#### VMWare Installation and Setup
+<p id="warningP">
+It is highly unlikely that the Docker commands themselves will change. However the design on the website will likely change over time.
+</p>
+
+<p id="warningP">
+If the following steps do not work for you then at the end of the steps there will be a more generalized guide to setting up Docker.)
+</p>
+
+</details>
+{: .fs-4 .fw-400 }
+
+
+1. Go to [Docker Website](www.docker.com){: .fs-4 .mb-4 .mb-md-0 } and click on the 'Get Started'
+2. Click Docker Desktop 'Download for [Your OS]' (My OS was Mac as you can see in the photo below, yours might be Windows)
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/docker1.png">
+3. Open the Docker.dmg file and move the docker icon into your application.
+4. Go to your applications folder and open Docker
+<details>
+<summary> Warning: Unidentified Developer Solution [click]</summary>
+
+<p id="warningP">
+Some Mac users might receive a warning saying 'Docker' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
+</p>
+
+<p id="warningP">
+1. Open up 'Systems Preferences'
+</p>
+
+<p id="warningP">
+2. Navigate to 'Security & Privacy'
+</p>
+
+<p id="warningP">
+3. On the menu tab at the top of the system preferences screen click the 'General' tab
+</p>
+
+<p id="warningP">
+4. At the bottom of the 'General' tab you should see the unidentified developer warning for docker with a button next to it that says 'Open Anyway'
+</p>
+</details>
+
+<div markdown="1">
+5
+{: .fs-3 .d-inline-block .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; For Mac users open up the application named terminal (this can be found by searching 'terminal' in spotlight) and run the following:
+{: .d-inline}
+
+Enter the following line into the terminal:
+```shell
+docker pull ubuntu
+```
+You should have something that looks like this
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/dockerpullubuntu.png">
+
+Then enter the following:
+```shell
+docker run -it ubuntu
+```
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/dockerrunubuntu.png">
+
+You now have a Linux shell running on Ubuntu, if you type:
+```shell
+ls
+```
+you will see a list of all the files from the root directory
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuls.png">
+
+In the future when command line instructions are given you simple haven to
+
+1. Open the docker application from your application folder
+2. Open up terminal
+3. Type the following into terminal:
+```shell
+docker run -it ubuntu
+```
+4. Then enter the commands given by the instructions
+
+When you want to exit simple type exist and it will return you to the command line for your actual computer
+```shell
+exit
+```
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuexit.png">
+
+We can verify that we have exited the Linux container by typing
+```shell
+ls
+```
+Which lists all the files in the directory you are in and you will notice the files are different from the previous time you entered ls
+as you can see above.
+
+
+You have now created an Ubuntu container using Docker. You are now currently working on a Ubuntu operating system.
+
+For Windows Users docker requires some extra steps: follow along here [Docker for Windows](https://docs.docker.com/docker-for-windows/){: .fs-4 .mb-4 .mb-md-0 } or follow the VirtualBox installation of Ubuntu here [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 } which may be easier.
+
+{: .d-inline}
+</div>
+
+
+
+#### VirtualBox Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
 
 Setup
