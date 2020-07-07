@@ -304,17 +304,111 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 {: .d-block}
 </div>
 
+
+<div markdown="1">
 9
 {: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
 
 &nbsp; &nbsp; File Location and Size? This is choosing where you are going to store your virtual hard drive which is completely up to you, as well as how big it should be. 10GB is plenty for this chapter.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/dynamicvm.png">
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/filelocationandsizevm.png">
 {: .d-block}
 </div>
 
 
+<div markdown="1">
+10
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Now select on your VirtualBox in the list on the left hand side of the window then click settings at the top of your window. Once settings has opened click on the 'General' tab at the top of your screen. General has 4 tabs within itself, they are 'Basic', 'Advanced', 'Description' and 'Disk Encryption'. Click on 'Advanced' Copy the settings in the picture below. Then click OK
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/clipboardvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+11
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Select  your VirtualBox again from the sidebar and go back into settings. Now head to storage. Your window should look like the picture below. In the 'Storage Devices' list you want to click the first disk that says empty. Like in the picture below. 
+After that on the right hand side of the screen click the small blue disk and click the option that says 'Choose Virtual Optical Disk Drive'. A file manager window will open up, navigate to wherever the Ubuntu file you downloaded earlier is. Select the file and click Open.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/storagesettingsvm.png">
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/pathtoisovm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+12
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; You are now ready to run your virtual machine. Select your machine on the left had side and click run at the top. Once it has loaded you will be prompted with this page. Click 'Install Ubuntu' 
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/installubuntuvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+13
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Choose the keyboard layout you wish to use then click continue.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/keyboardlayoutvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+14
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Update and Other Software. You want to select 'Normal Installation' so you get the full features of Ubuntu. Tick 'Download updates while installing Ubuntu' and 'Install third-party software for graphics and Wi-Fi hardware and additional media formats' so that everything is up to date and working.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/updatesandsoftwarevm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+15
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Installation Type. You want to select 'Erase disk and install Ubuntu'. Don't worry this wont erase the memory on  your actual, it will be erasing the memory on the virtual hard disk we created which already has nothing on there. 
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/installationtypesvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+16
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Where are you? Select you timezone. 
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/whereareyouvm.png">
+{: .d-block}
+</div>
+
+<div markdown="1">
+17
+{: .fs-3 .d-inline .fw-100 .text-grey-dk-000}
+
+&nbsp; &nbsp; Who are you? This is setting up your user account for this virtual machine.
+{: .d-inline}
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/whoareyouvm.png">
+{: .d-block}
+</div>
+
+Thats it your done! Now you have a working Linux VM running on VirtualBox. For the Application Installation Section you can choose to either install the software from that section directly onto your computer or onto your VM. We allocated enough memory for your virtual hard disk drive to store the applications that are mentioned in the installation section.
+{: .d-block}
 
 ### Application Installation
 {: .fs-6 .fw-400 .d-inline-block}
@@ -322,7 +416,22 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
 
-Coming
+Most of the tools that we will be using in the terminal are already installed on Ubuntu. If you already have a distribution of Linux installed that isn't Ubuntu you should still have all the command line tools that are used. However if for some reason you try to use a command line tool in the exercises below and you don't seem to have it on your computer, follow the steps below to install it.
+
+1. Open up terminal
+2. Type in the following to update your packaging system (System that manages installed packages)
+```shell
+apt-get update
+```
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/apt-get-update.png">
+3. Then the general form for install a package is
+```shell
+apt-get install package-name-goes-here
+```
+In the picture below I've install 'dnsutils' as an example
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/apt-get-install.png">
+
+Now you have installed your packet (in my case 'dnsutils')
 {: .d-block}
 </div>
 
