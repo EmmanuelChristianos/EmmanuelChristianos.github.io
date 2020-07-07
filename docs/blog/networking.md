@@ -162,7 +162,7 @@ Some Mac users might receive a warning saying 'Docker' can't be opened because i
 5
 {: .fs-3 .d-inline-block .fw-100 .text-grey-dk-000}
 
-&nbsp; &nbsp; For Mac users open up the application named terminal (this can be found by searching 'terminal' in spotlight) and run the following:
+&nbsp; &nbsp; For Mac users open up the application named terminal (this can be found by searching 'terminal' in spotlight)
 {: .d-inline}
 
 Enter the following line into the terminal:
@@ -185,7 +185,7 @@ ls
 you will see a list of all the files from the root directory
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuls.png">
 
-In the future when command line instructions are given you simple haven to
+In the future when the Linux container is needed for an exercise you simply haven to:
 
 1. Open the docker application from your application folder
 2. Open up terminal
@@ -195,19 +195,19 @@ docker run -it ubuntu
 ```
 4. Then enter the commands given by the instructions
 
-When you want to exit simple type exist and it will return you to the command line for your actual computer
+When you want to exit simply type exit and it will return you to the command line for your actual computer
 ```shell
 exit
 ```
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuexit.png">
 
-We can verify that we have exited the Linux container by typing
+We can verify that we have exited the Linux container by looking at the prompt
 ```shell
 ls
 ```
-Which lists all the files in the directory you are in and you will notice the files are different from the previous time you entered ls
-as you can see above.
+Which lists all the files in the directory you are in. We have done this above after we entered exit and you will notice the files are different from the previous time you entered ls.
 
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/blurredprompt.png">
 
 You have now created an Ubuntu container using Docker. You are now currently working on a Ubuntu operating system.
 
