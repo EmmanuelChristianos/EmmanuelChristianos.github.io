@@ -32,7 +32,7 @@ permalink: docs/blog
 
 ## Chapter Structure
 
-Chapters divide information into 4 main categories. These categories facilitate the 'bottom up' approach to learning security concepts. Each chapter aims to provide you with all the sufficient information needed to follow along with the rest of the chapter. Those chapters are represented by the following:
+Chapters divide information into 4 main categories. These categories facilitate the 'bottom up' approach to learning security concepts. Each category aims to provide you with all the sufficient information needed to follow along with the rest of the chapter. Those categories are represented by the following:
 {: .fs-5 .fw-200 }
  
 <div markdown="1">
@@ -68,5 +68,10 @@ Next Step
 The 'Next Step' label details where you can move to next, whether it be further practice of the skills acquired or recommendations regarding new topics that have the knowledge acquired as a prerequisite. 
 {: .fs-5 .fw-200 }
 </div>
+
+## Chapter Without A Category 
+
+If a category isn't needed in a chapter for instance, a chapter that required no prerequisite knowledge, then the corresponding section will be left out.
+{: .fs-5 .fw-200 }
 
 </div>

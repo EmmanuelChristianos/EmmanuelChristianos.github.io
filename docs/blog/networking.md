@@ -521,17 +521,7 @@ Some Mac users might receive a warning saying 'Wireshark' can't be opened becaus
 </details>
 {: .fs-4 .fw-400 }
 
-<div  markdown="1">
-## Prerequisite Knowledge
-{: .fs-7.fw-400 .d-inline-block}
-
-Prerequisite
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-0}
-
-Coming
-{: .d-block}
 </div>
-
 
 <div  markdown="1">
 ## Core Knowledge
