@@ -107,7 +107,7 @@ Setup
 
 <details >
 
-<summary> Warning: Instruction May Change! [click]</summary>
+<summary> Warning: Instruction May Change! [Click]</summary>
 
 <p id="warningP">
 (Warning: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
@@ -486,80 +486,74 @@ Coming
 Core
 {: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-0}
 
-Coming
-{: .d-block}
-
 ### What Is The Internet? An Introduction!
-{: .fs-6 .fw-400 .d-inline-block}
+{: .fs-6 .fw-400 .d-block}
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
 
 #### How Is The Internet Composed?
-{: .fs-5 .fw-200 .d-inline-block}
+{: .fs-5 .fw-200 .d-block}
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
+The Internet is a global network of networks. It is made up from the interconnection of smaller networks, whom may be made up of smaller networks and so on until you create what looks like a tree of networks. The smallest networks in the internet being singular, would be the leaves of your tree. The leaf networks of the internet would be the networks in homes, Small Office Home Office (SOHO) businesses etc.
 
-Coming
+So what exactly is a network? A network is simply a collection of devices that are connected to each other in some way, which allows them to communicate. So if think about the internet, it is connecting networks of devices with whom could already talk amongst themselves with other devices outside of their network -- specifically with the network they were connected with -- The internet does this with the aim of connecting all networks together. As long as you are connected to some network the internet can connect you to the rest. 
+{: .d-block}
+
+#### What devices make up the Internet?
+{: .fs-5 .fw-200 .d-block}
+
+Networks consist of many different types of devices from: Computers, Servers, Smartphones, TVs, Gaming systems etc. When you think about your home network, a leaf on the tree of the internet, can you think of all the devices connected to your internet be it through WIFI or ethernet cable? This would be your Local Area Network (LAN). All the devices that are part of a network are called 'End Systems', or sometimes you will hear 'Hosts'.
+{: .d-block}
+
+#### How do devices in the internet connect with each other?
+{: .fs-5 .fw-200 .d-block}
+
+End Systems communicate with each other through 'Communication Links' and 'Packet Switches'. There are many different types of communication links that we will go over soon, all you need to know now is that these links are what carry the actual bits of data to and from other end systems. 
+
+When information from one end system wants to travel to another it is not all sent as one big message but rather broken up into smaller packets of information. A packet switch receives packets through a communication link, determines where to send those packets, and then sends them off towards their destination. Their journey will likely involve passing through many packets switches along the way until they arrive at a packet switch that is connected to the destination end system.
+
+This is what is called a 'Packet Switched' network. Another type of network we will be looking at is 'Circuit Switched' networks. We won't get into the details now but the difference in the two surrounds how information gets sent to and from end systems. In a packet switched networks we have learnt that information gets broken up into packets first and then pass through devices that direct them along their path towards their destination. Circuit switched networks however don’t use packets and instead create, big surprise.. Circuits.
+
+There are two common types of packet switches: 
+1. Routers
+2. Link Layer Switches
+
+The difference between the two lies with how they process the information in packets to determine where to send them. Routers, 'route' packets through the internet, to other routers using the IP address of the destination end system. Each Device connected to the internet has an IP address, something that looks like this:  '157.240.8.35'  (This is [Facebook's](www.facebook.com){:.fs-4 .md-0 .mr-0} address for me -- Facebooks IP address will likely be different for you) . This number is included into every little packet that gets stuffed with information when a end system wants to send something to that IP address. When everyone one of those packets reach a router, the router will examine the IP and then determine which outgoing communication link to send the packet to.
+
+Link Layer Switched however don’t actually look at the IP address at all and instead route those packets using what is called a MAC address. MAC stands for Media Access Control, a MAC address is what allows a Link Layer Switch to uniquely identify a device on the switches network. Since a switch does not use IP addresses it generally isn’t used as much as routers are in the core of the internet since it wont know what to do with incoming packets which have a destination that belongs to a computer outside of the switches network. It only knows about devices that it is physically connected to.
+
+{: .d-block}
+
+#### The Internet is a service?
+{: .fs-5 .fw-200 .d-block}
+
+One reason why the internet has blown up the way it has is because of the service it provides. It allows application on different end systems to be able to communicate with each other. This is why we have electronic mail, Instant Messaging, Online games etc. A application can connect an infinite number of different end systems together to be used for different reasons. Such applications are called distributed application since they are distributed amongst multiple end systems. 
+
+{: .d-block}
+
+#### How do Internet Application Function?
+{: .fs-5 .fw-200 .d-block}
+
+Internet Applications define a proprietary protocol or use a public protocol to define how they send and receive information on the internet. A proprietary protocol is one which is designed by a company for use only by that company. A public protocol is defined in what is called a 'Request For Comments' (RFC).
+
+> A Request for Comments (RFC) is a publication from the Internet Society (ISOC) and its associated bodies, most prominently the Internet Engineering Task Force (IETF), the principal technical development and standards-setting bodies for the Internet. 
+>...
+> An RFC is authored by individuals or groups of engineers and computer scientists in the form of a memorandum describing methods, behaviours, research, or innovations applicable to the working of the Internet and Internet-connected systems. It is submitted either for peer review or to convey new concepts, information, or occasional engineering humor
+> -- <cite>Wikipedia</cite>
+
+Public protocols are used by lots of people everywhere in the internet. Applications use protocol that are specific to the sending and receiving data between distributed application over the internet.
+
 {: .d-block}
 
 #### What Are Protocols?
-{: .fs-5 .fw-200 .d-inline-block}
+{: .fs-5 .fw-200 .d-block}
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
+Protocols are simply a defined set of instruction with which two entities adhere too to complete some task. In networking different types of protocols are used for each layer of the internet. We will be going into detail about the different layers of the internet later but what you need to know now Is the internet is has 5 different layer and the layers are referred to by the 'Internet layered protocol stack'. Each Layer utilises different protocol to perform their function. 
 
-Coming
-{: .d-block}
-
-#### What Is Connecting To The Internet?
-{: .fs-5 .fw-200 .d-inline-block}
-
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
-
-Coming
-{: .d-block}
-
-#### What Devices Facilitate The Functionality Of The Internet?
-{: .fs-5 .fw-200 .d-inline-block}
-
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
-
-Coming
-{: .d-block}
-
-#### There Are Different Types Of Networks?
-{: .fs-5 .fw-200 .d-inline-block}
-
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
-
-Coming
-{: .d-block}
-
-#### Why Is Your Internet Slow Sometimes? How Delay Occurs!
-{: .fs-5 .fw-200 .d-inline-block}
-
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
-
-Coming
+The top level is the Application layer which looks at the distributed application that use the internet to communicate. The World Wide Web is a Internet application. You use your browser to connect with different servers in the internet that store website data. The way the browser and the servers are able to communicate their needs is through a protocol called HTTP. HTTP provides a language that your browser and some websites server both understand so that you can retrieve the website information to 'surf the web'. HTTP is a public protocol which will be reviewed later, and is just one of many public application protocol defined in a RFC by the IETF. There are also many proprietary application protocol like the protocols Skype uses to connect users all around the world.
 {: .d-block}
 
 #### What Is A Layered Protocol Stack?
-{: .fs-5 .fw-200 .d-inline-block}
-
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-2}
-
-Coming
-{: .d-block}
+{: .fs-5 .fw-200 .d-block}
 
 </div>
 

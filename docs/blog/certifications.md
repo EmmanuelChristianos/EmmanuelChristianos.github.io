@@ -4,6 +4,53 @@ title: Certifications
 parent: Blog
 ---
 
+<style type="text/css">
+
+#warningP {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+details {
+    border-radius: 2px;
+    background: #DEDFF6;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+
+
+}
+
+details summary {
+    font-size: 17px;
+    vertical-align: top;
+    background: #7F61EF;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 2px 5px;
+    outline: none;
+    text-align: center;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary:before {
+    background-position: -18px 0;
+
+}
+
+details[open] summary {
+    background: #6C47EF;
+    color: #fff;
+}
+
+</style>
+
 # CompTIA A+ Certification
 {: .no_toc .fs-9}
 
@@ -45,15 +92,21 @@ Syllabus
 | Visualization and Cloud Computing   | 12%    				   | 11 Questions     |
 | Hardware and Network Troubleshooting| 27%    				   | 24 Questions     |
 
+
+<details open=true markdown="1">
+
+<summary>Click For Syllabus</summary>
+
+
 ### Mobile Devices
 {: .fs-6 .fw-400 .d-inline-block}
 
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
 
-[Put Explanation here]
+This sections attempts to cover the 'Mobile Devices' knowledge requirements for the CompTIA A+ Exam
+{: .d-block .fs-5}
 
-{: .d-block}
 #### Given a scenario, install and configure laptop hardware and components
 {: .fs-5 .fw-200 .d-inline}
 
@@ -61,7 +114,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Hardware/device replacement
-
 	- Keyboard
     - Hard drive
     - SSD vs. hybrid vs. magnetic disk, 1.8in vs. 2.5in
@@ -80,7 +132,6 @@ Syllabus
     - Speaker
     - System board
     - CPU
-
 {: .d-block}
 
 #### Given a scenario, install components within the display of a laptop
@@ -90,12 +141,10 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Types
-
     - LCD
     - OLED
-
 2. WiFi antenna connector/placement
-3. Webcam
+3. Web cam
 4. Microphone
 5. Inverter
 6. Digitizer/touchscreen
@@ -108,20 +157,18 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Special function keys
-
     - Dual displays
     - Wireless (on/off)
     - Cellular (on/off)
     - Volume settings
     - Screen brightness
     - Bluetooth (on/off)
-    - Keyboard backlight
+    - Keyboard back-light
     - Touchpad (on/off)
     - Screen orientation
     - Media options (fast forward/rewind)
     - GPS (on/off)
     - Airplane mode
-
 2. Docking station
 3. Port replicator
 4. Physical laptop lock and cable lock
@@ -137,11 +184,9 @@ Syllabus
 1. Tablets
 2. Smartphones
 3. Wearable technology devices
-
     - Smart watches
     - Fitness monitors
     - VR/AR headsets
-
 4. E-readers
 5. GPS
 {: .d-block}
@@ -153,7 +198,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Connection types
-
     - Wired
     - Micro-USB/Mini-USB/USB-C
     - Lightning
@@ -164,9 +208,7 @@ Syllabus
     - Bluetooth
     - IR
     - Hotspot
-
 2. Accessories
-
     - Headsets
     - Speakers
     - Game pads
@@ -174,7 +216,6 @@ Syllabus
     - Protective covers/waterproofing
     - Credit card readers
     - Memory/MicroSD
-
 {: .d-block}
 
 #### Given a scenario, configure basic mobile device network connectivity and application support
@@ -184,38 +225,29 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Wireless/cellular data network (enable/disable)
-
     - Hotspot
     - Tethering
     - Airplane mode
-
 2. Bluetooth
-
     - Enable Bluetooth
     - Enable pairing
     - Find a device for pairing
     - Enter the appropriate pin code
     - Test connectivity
-
 3. Corporate and ISP email configuration
-
     - POP3
     - IMAP
     - Port and SSL settings
     - S/MIME
-
 4. Integrated commercial provider email configuration
-
     - iCloud
     - Google/Inbox
     - Exchange Online
     - Yahoo
-
 5. PRI updates/PRL updates/ baseband updates
 6. Radio firmware
 7. IMEI vs. IMSI
 8. VPN
-
 {: .d-block}
 
 #### Given a scenario, use methods to perform mobile device synchronization
@@ -225,13 +257,10 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Synchronization methods
-
     - Synchronize to the cloud
     - Synchronize to the desktop
     - Synchronize to the automobile
-
 2. Types of data to synchronize
-
     - Contacts
     - Applications
     - Email
@@ -245,7 +274,6 @@ Syllabus
     - Social media data
     - E-books
     - Passwords
-
 3. Mutual authentication for multiple services (SSO)
 4. Software requirements to install the application on the PC
 5. Connection types to enable synchronization
@@ -257,8 +285,8 @@ Syllabus
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
 
-[Put Explanation here]
-{: .d-block}
+This sections attempts to cover the 'Networking' knowledge requirements for the CompTIA A+ Exam
+{: .d-block .fs-5}
 
 #### Compare and contrast TCP and UDP ports, protocols, and their purposes
 {: .fs-5 .fw-200 .d-inline}
@@ -267,7 +295,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Ports and protocols
-
     - 21 – FTP
     - 22 – SSH
     - 23 – Telnet
@@ -285,7 +312,6 @@ Syllabus
     - 67/68 – DHCP
     - 389 – LDAP
     - 161/162 – SNMP
-
 2. TCP vs. UDP
 {: .d-block}
 
@@ -297,10 +323,8 @@ Syllabus
 
 1. Routers
 2. Switches
-
     - Managed
     - Unmanaged
-
 3. Access points
 4. Cloud-based network controller
 5. Firewall
@@ -311,10 +335,8 @@ Syllabus
 10. Bridge
 11. Patch panel
 12. Power over Ethernet (PoE)
-
     - Injectors
     - Switch
-
 13. Ethernet over Power
 
 {: .d-block}
@@ -329,32 +351,25 @@ Syllabus
 2. Access point settings
 3. IP addressing
 4. NIC configuration
-
     - Wired
     - Wireless
-
 5. End-user device configuration
 6. IoT device configuration
-
     - Thermostat
     - Light switches
     - Security cameras
     - Door locks
     - Voice-enabled, smart speaker/digital assistant
-
 7. Cable/DSL modem configuration
 8. Firewall settings
-
     - DMZ
     - Port forwarding
     - NAT
     - UPnP
-    - Whitelist/blacklist
+    - White-list/blacklist
     - MAC filtering
-
 9. QoS
 10. Wireless settings
-
     - Encryption
     - Channels
     - QoS
@@ -372,14 +387,10 @@ Syllabus
 4. 802.11n
 5. 802.11ac
 6. Frequencies
-
     - 2.4Ghz
     - 5Ghz
-
 7. Channels
-
     - 1–11
-
 8. Bluetooth
 9. NFC
 10. RFID
@@ -389,7 +400,6 @@ Syllabus
 14. 4G
 15. 5G
 16. LTE
-
 {: .d-block}
 
 #### Summarize the properties and purposes of services provided by networked hosts
@@ -399,7 +409,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Server roles
-
     - Web server
     - File server
     - Print server
@@ -409,14 +418,11 @@ Syllabus
     - Mail server
     - Authentication server
     - syslog
-
 2. Internet appliance
-
     - UTM
     - IDS
     - IPS
     - End-point management server
-
 3. Legacy/embedded systems
 {: .d-block}
 
@@ -426,17 +432,13 @@ Syllabus
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 1. IP addressing
-
     - Static
     - Dynamic
     - APIPA
     - Link local
-
 2. DNS
 3. DHCP
-
     - Reservations
-
 4. IPv4 vs. IPv6
 5. Subnet mask
 6. Gateway
@@ -452,7 +454,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Internet connection types
-
     - Cable
     - DSL
     - Dial-up
@@ -463,9 +464,7 @@ Syllabus
     - Tethering
     - Mobile Hotspot
     - Line-of-sight wireless Internet service
-
 2. Network types
-
     - LAN
     - WAN
     - PAN
@@ -495,8 +494,8 @@ Syllabus
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
 
-[Put Explanation here]
-{: .d-block}
+This sections attempts to cover the 'Hardware' knowledge requirements for the CompTIA A+ Exam
+{: .d-block .fs-5}
 
 #### Explain basic cable types, features, and their purposes
 {: .fs-5 .fw-200 .d-inline}
@@ -505,7 +504,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Network cables
-
     - Ethernet
     - Cat 5
     - Cat 5e
@@ -517,36 +515,26 @@ Syllabus
     - Fiber
     - Coaxial
     - Speed and transmission limitations
-
 2. Video cables
-
     - VGA
     - HDMI
     - Mini-HDMI
     - DisplayPort
     - DVI (DVI-D/DVI-I)
-
 3. Multipurpose cables
-
     - Lightning
     - Thunderbolt
     - USB
     - USB-C
     - USB 2.0
     - USB 3.0
-
 4. Peripheral cables
-
     - Serial
-
 5. Hard drive cables
-
     - SATA
     - IDE
     - SCSI
-
 6. Adapters
-
     - DVI to HDMI
     - USB to Ethernet
     - DVI to VGA
@@ -582,12 +570,10 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. RAM types
-
     - SODIMM
     - DDR2
     - DDR3
     - DDR4
-
 2. Single channel
 3. Dual channel
 4. Triple channel
@@ -602,21 +588,16 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Optical drives
-
     - CD-ROM/CD-RW
     - DVD-ROM/DVD-RW/DVD-RW DL
     - Blu-ray
     - BD-R
     - BD-RE
-
 2. Solid-state drives
-
     - M2 drives
     - NVME
     - SATA 2.5
-
 3. Magnetic hard drives
-
     - 5,400 rpm
     - 7,200 rpm
     - 10,000 rpm
@@ -624,18 +605,14 @@ Syllabus
     - Sizes:
     - 2.5
     - 3.5
-
 4. Hybrid drives
 5. Flash
-
     - SD card
     - CompactFlash
     - Micro-SD card
     - Mini-SD card
     - xD
-
 6. Configurations
-
     - RAID 0, 1, 5, 10
     - Hot swappable
 
@@ -648,14 +625,11 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Motherboard form factor
-
     - ATX
     - mATX
     - ITX
     - mITX
-
 2. Motherboard connectors types
-
     - PCI
     - PCIe
     - Riser card
@@ -664,9 +638,7 @@ Syllabus
     - IDE
     - Front panel connector
     - Internal USB connector
-
 3. BIOS/UEFI settings
-
     - Boot options
     - Firmware updates
     - Security settings
@@ -677,10 +649,8 @@ Syllabus
     - 	TPM
     - 	LoJack
     - 	Secure boot
-
 4. CMOS battery
 5. CPU features
-
     - Single-core
     - Multicore
     - Visualization
@@ -688,21 +658,15 @@ Syllabus
     - Speeds
     - Overclocking
     - Integrated GPU
-
 6. Compatibility
-
     - AMD
     - Intel
-
 7. Cooling mechanism
-
     - Fans
     - Heat sink
     - Liquid
     - Thermal paste
-
 8. Expansion cards
-
     - Video cards
     - On-board
     - Add-on card
@@ -718,6 +682,7 @@ Syllabus
 
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
+
 1. Printer
 2. ADF/flatbed scanner
 3. Barcode scanner/QR scanner
@@ -734,9 +699,7 @@ Syllabus
 14. Speakers
 15. Headset
 16. Projector
-
     - Lumens/brightness
-
 17. External storage drives
 18. KVM
 19. Magnetic reader/chip reader
@@ -765,43 +728,30 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Graphic/CAD/CAM design workstation
-
     - SSD
     - High-end video
     - Maximum RAM
-
 2. Audio/video editing workstation
-
     - Specialized audio and video card
     - Large, fast hard drive
     - Dual monitors
-
 3. Visualization workstation
-
     - Maximum RAM and CPU cores
-
 4. Gaming PC
-
     - SSD
     - High-end video/specialized GPU
     - High-definition sound card
     - High-end cooling
-
 5. Network attached storage device
-
     - Media streaming
     - File sharing
     - Gigabit NIC
     - RAID array
     - Hard drive
-
 6. Standard thick client
-
     - Desktop applications
     - Meets recommended requirements for selected OS
-
 7. Thin client
-
     - Basic applications
     - Meets minimum requirements for selected OS
     - Network connectivity
@@ -815,20 +765,16 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Desktop
-
     - Thin client
     - Thick client
     - Account setup/settings
-
 2. Laptop/common mobile devices
-
     - Touchpad configuration
     - Touchscreen configuration
     - Application installations/configurations
     - Synchronization settings
     - Account setup/settings
     - Wireless settings
-
 {: .d-block}
 
 #### Given a scenario, configure SOHO multifunction devices/printers and settings
@@ -838,15 +784,12 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Use appropriate drivers for a given operating system
-
     - Configuration settings
     - Duplex
     - Collate
     - Orientation
     - Quality
-
 2. Device sharing
-
     - Wired
     - USB
     - Serial
@@ -857,9 +800,7 @@ Syllabus
     - Infrastructure vs. ad hoc
     - Integrated print server (hardware)
     - Cloud printing/remote printing
-
 3. Public/shared devices
-
     - Sharing local/networked device via operating system settings
     - TCP/Bonjour/AirPrint
     - Data privacy
@@ -875,38 +816,27 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Laser
-
     - Imaging drum, fuser assembly, transfer belt, transfer roller, pickup rollers, separate pads, duplexing assembly
     - Imaging process: processing, charging, exposing, developing, transferring, fusing, and cleaning
     - Maintenance: Replace toner, apply maintenance kit, calibrate, clean
-
 2. Inkjet
-
     - Ink cartridge, print head, roller, feeder, duplexing assembly, carriage, and belt
     - Calibrate
     - Maintenance: Clean heads, replace cartridges, calibrate, clear jams
-
 3. Thermal
-
     - Feed assembly, heating element
     - Special thermal paper
     - Maintenance: Replace paper, clean heating element, remove debris
-
 4. Impact
-
     - Print head, ribbon, tractor feed
     - Impact paper
     - Maintenance: Replace ribbon, replace print head, replace paper
-
 5. Virtual
-
     - Print to file
     - Print to PDF
     - Print to XPS
     - Print to image
-
 6. 3D printers
-
     - Plastic filament
 
 {: .d-block}
@@ -917,8 +847,8 @@ Syllabus
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
 
-[Put explanation here]
-{: .d-block}
+This sections attempts to cover the 'Visualization and Cloud Computing' knowledge requirements for the CompTIA A+ Exam
+{: .d-block .fs-5}
 
 #### Compare and contrast cloud computing concepts
 {: .fs-5 .fw-200 .d-inline}
@@ -927,16 +857,12 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common cloud models
-
     - IaaS
     - SaaS
     - PaaS
     - Public vs. private vs. hybrid vs. community
-
 2. Shared resources
-
     - Internal vs. external
-
 3. Rapid elasticity
 4. On-demand
 5. Resource pooling
@@ -944,16 +870,11 @@ Syllabus
 7. Metered
 8. Off-site email applications
 9. Cloud file storage services
-
     - Synchronization applications
-
 10. Virtual application streaming/cloud-based applications
-
     - Applications for cell phones/tablets
     - Applications for laptops/desktops
-
 11. Virtual desktop
-
     - Virtual NIC
 {: .d-block}
 
@@ -978,8 +899,8 @@ Syllabus
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
 
-[Put explanation here]
-{: .d-block}
+This sections attempts to cover the 'Hardware and Network Troubleshooting' knowledge requirements for the CompTIA A+ Exam
+{: .d-block .fs-5}
 
 #### Given a scenario, use the best practice methodology to resolve problems
 {: .fs-5 .fw-200 .d-inline}
@@ -988,22 +909,15 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Always consider corporate policies, procedures, and impacts before implementing changes
-
 1. Identify the problem
-
     - Question the user and identify user changes to computer and perform backups before making changes
     - Inquire regarding environmental or infrastructure changes
     - Review system and application logs
-
 2. Establish a theory of probable cause (question the obvious)
-
     - If necessary, conduct external or internal research based on symptoms
-
 3. Test the theory to determine cause
-
     - Once the theory is confirmed, determine the next steps to resolve problem
     - If theory is not confirmed re-establish new theory or escalate
-
 4. Establish a plan of action to resolve the problem and implement the solution
 5. Verify full system functionality and, if applicable, implement preventive measures
 6. Document findings, actions, and outcomes
@@ -1017,7 +931,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - Unexpected shutdowns
     - System lockups
     - POST code beeps
@@ -1046,7 +959,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - Read/write failure
     - Slow performance
     - Loud clicking noise
@@ -1067,7 +979,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - VGA mode
     - No image on screen
     - Overheat shutdown
@@ -1089,7 +1000,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - No display
     - Dim display
     - Flickering display
@@ -1112,9 +1022,7 @@ Syllabus
     - No sound from speakers
     - GPS not functioning
     - Swollen battery
-
 2. Disassembling processes for proper reassembly
-
     - Document and label cable and screw locations
     - Organize parts
     - Refer to manufacturer resources
@@ -1129,7 +1037,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - Streaks
     - Faded prints
     - Ghost images
@@ -1160,7 +1067,6 @@ Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
-
     - Limited connectivity
     - Unavailable resources
     - Internet
@@ -1177,6 +1083,8 @@ Syllabus
     - SSID not found
 
 {: .d-block}
+
+</details>
 </div>
 
 
