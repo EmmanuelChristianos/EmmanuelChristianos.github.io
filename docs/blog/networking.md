@@ -172,7 +172,7 @@ If the following steps do not work for you then at the end of the steps there wi
 
 1. Go to [Docker Website](www.docker.com){: .fs-4 .mb-4 .mb-md-0 } and click on the 'Get Started'
 2. Click Docker Desktop 'Download for [Your OS]' (My OS was Mac as you can see in the photo below, yours might be Windows)
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/docker1.png">
+<img src="/assets/images/networking/docker1.png">
 3. Open the Docker.dmg file and move the docker icon into your application.
 4. Go to your applications folder and open Docker
 
@@ -213,20 +213,20 @@ Enter the following line into the terminal:
 docker pull ubuntu
 ```
 You should have something that looks like this
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/dockerpullubuntu.png">
+<img src="/assets/images/networking/dockerpullubuntu.png">
 
 Then enter the following:
 ```shell
 docker run -it ubuntu
 ```
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/dockerrunubuntu.png">
+<img src="/assets/images/networking/dockerrunubuntu.png">
 
 You now have a Linux shell running on Ubuntu, if you type:
 ```shell
 ls
 ```
 you will see a list of all the files from the root directory
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuls.png">
+<img src="/assets/images/networking/ubuntuls.png">
 
 In the future when the Linux container is needed for an exercise you simply haven to:
 
@@ -242,11 +242,11 @@ When you want to exit simply type exit and it will return you to the command lin
 ```shell
 exit
 ```
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntuexit.png">
+<img src="/assets/images/networking/ubuntuexit.png">
 
 We can verify that we have exited the Linux container by looking at the prompt. A prompt in your terminal usually holds information regarding the computer you are on. Information like the current user that is logged in etc. My actual computer prompt you can see from before we ran any of the docker commands. Once we ran the docker container a different looking prompt appeared as we were then inside the Linux container; we had a Ubuntu prompt. After we exited the container the prompt returned to normal. The prompt is the easiest and quickest way to determine if you are still running inside your container or not.
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/blurredprompt.png">
+<img src="/assets/images/networking/blurredprompt.png">
 
 You have now created an Ubuntu container using Docker.
 {: .d-inline}
@@ -267,9 +267,9 @@ Setting up an Linux Virtual Machine (Which is what VirtualBox is allowing us to 
 <summary>Docker Installation and Set Up [Click]</summary>
 
 1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads){: .fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
+<img src="/assets/images/networking/virtualboxdownload.png">
 2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntudownload.png">
+<img src="/assets/images/networking/ubuntudownload.png">
 3. Open up VirtualBox
 
 <details id="warningD" mardown="1">
@@ -304,7 +304,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Once you have opened up VirtualBox, click the blue 'New' button at the top of the screen and you will be prompted with the page below. You want to add a name to the VirtualBox you are creating, select Linux and then select Ubuntu 64 bit. The 'Machine Folder' field is set automatically and you don't need to worry about it.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/nameVM.png">
+<img src="/assets/images/networking/nameVM.png">
 {: .d-block}
 </div>
 
@@ -315,7 +315,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Selecting the memory size. By default it is set to 102MB but I highly recommend you increase the amount of RAM you give to your machine to at lease half of the green portion. Never go into the orange or red areas.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/memsizevm.png">
+<img src="/assets/images/networking/memsizevm.png">
 {: .d-block}
 </div>
 
@@ -326,7 +326,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Creating a Virtual Hard disk. You will need some storage. If you don't have an existing virtual hard disk drive file elsewhere that you wish to use (which most of you wont) then click 'Create a virtual hard disk now'
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/createharddiskvm.png">
+<img src="/assets/images/networking/createharddiskvm.png">
 {: .d-block}
 </div>
 
@@ -337,7 +337,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Choosing a Hard Disk File Type. It will say on the VirtualBox window, but if you do not need this hard disk for other visualization software then you can just leave it as 'VDI (VirtualBox Disk Image)'
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/diskfiletypevm.png">
+<img src="/assets/images/networking/diskfiletypevm.png">
 {: .d-block}
 </div>
 
@@ -348,7 +348,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Dynamic or Fixed Size Storage? Choosing dynamic for the word in this chapter is fine since we aren't storing a lot. Since its dynamic if wont immediately take up a fixed amount of memory but rather grow as its needed.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/dynamicvm.png">
+<img src="/assets/images/networking/dynamicvm.png">
 {: .d-block}
 </div>
 
@@ -360,7 +360,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; File Location and Size? This is choosing where you are going to store your virtual hard drive which is completely up to you, as well as how big it should be. 10GB is plenty for this chapter.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/filelocationandsizevm.png">
+<img src="/assets/images/networking/filelocationandsizevm.png">
 {: .d-block}
 </div>
 
@@ -372,7 +372,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 &nbsp; &nbsp; Now select on your VirtualBox in the list on the left hand side of the window then click settings at the top of your window. Once settings has opened click on the 'General' tab at the top of your screen. General has 4 tabs within itself, they are 'Basic', 'Advanced', 'Description' and 'Disk Encryption'. Click on 'Advanced' Copy the settings in the picture below. Then click OK
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/clipboardvm.png">
+<img src="/assets/images/networking/clipboardvm.png">
 {: .d-block}
 </div>
 
@@ -384,8 +384,8 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 After that on the right hand side of the screen click the small blue disk and click the option that says 'Choose Virtual Optical Disk Drive'. A file manager window will open up, navigate to wherever the Ubuntu file you downloaded earlier is. Select the file and click Open.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/storagesettingsvm.png">
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/pathtoisovm.png">
+<img src="/assets/images/networking/storagesettingsvm.png">
+<img src="/assets/images/networking/pathtoisovm.png">
 {: .d-block}
 </div>
 
@@ -396,7 +396,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; You are now ready to run your virtual machine. Select your machine on the left had side and click run at the top. Once it has loaded you will be prompted with this page. Click 'Install Ubuntu' 
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/installubuntuvm.png">
+<img src="/assets/images/networking/installubuntuvm.png">
 {: .d-block}
 </div>
 
@@ -407,7 +407,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; Choose the keyboard layout you wish to use then click continue.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/keyboardlayoutvm.png">
+<img src="/assets/images/networking/keyboardlayoutvm.png">
 {: .d-block}
 </div>
 
@@ -418,7 +418,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; Update and Other Software. You want to select 'Normal Installation' so you get the full features of Ubuntu. Tick 'Download updates while installing Ubuntu' and 'Install third-party software for graphics and Wi-Fi hardware and additional media formats' so that everything is up to date and working.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/updatesandsoftwarevm.png">
+<img src="/assets/images/networking/updatesandsoftwarevm.png">
 {: .d-block}
 </div>
 
@@ -429,7 +429,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; Installation Type. You want to select 'Erase disk and install Ubuntu'. Don't worry this wont erase the memory on  your actual, it will be erasing the memory on the virtual hard disk we created which already has nothing on there. 
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/installationtypesvm.png">
+<img src="/assets/images/networking/installationtypesvm.png">
 {: .d-block}
 </div>
 
@@ -440,7 +440,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; Where are you? Select you timezone. 
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/whereareyouvm.png">
+<img src="/assets/images/networking/whereareyouvm.png">
 {: .d-block}
 </div>
 
@@ -451,7 +451,7 @@ After that on the right hand side of the screen click the small blue disk and cl
 &nbsp; &nbsp; Who are you? This is setting up your user account for this virtual machine.
 {: .d-inline}
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/whoareyouvm.png">
+<img src="/assets/images/networking/whoareyouvm.png">
 {: .d-block}
 
 </div>
