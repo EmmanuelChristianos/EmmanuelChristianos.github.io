@@ -21,7 +21,7 @@
   a {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
   }
 
   ul,
@@ -193,5 +193,12 @@
     + p {
       margin-top: 0;
     }
+  }
+
+  #markdown-toc {
+
+
+    display: block;
+    width: 100%;
   }
 }
