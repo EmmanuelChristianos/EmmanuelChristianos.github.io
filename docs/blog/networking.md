@@ -55,7 +55,7 @@ details[open] summary:before {
     border-right: 0px;
     border-bottom: 0px;
     border-top: 0px;
-    border-radius: 8px;
+    border-radius: 0px;
     background: #fff;
     color: black;
     margin-top: 10px;
@@ -571,7 +571,23 @@ There are two common types of packet switches:
 1. Routers
 2. Link Layer Switches
 
-The difference between the two lies with how they process the information in packets to determine where to send them. Routers, 'route' packets through the internet, to other routers using the IP address of the destination end system. Each Device connected to the internet has an IP address, something that looks like this:  '157.240.8.35'  (This is [Facebook's](www.facebook.com){:.fs-4 .md-0 .mr-0} address for me -- Facebooks IP address will likely be different for you) . This number is included into every little packet that gets stuffed with information when a end system wants to send something to that IP address. When everyone one of those packets reach a router, the router will examine the IP and then determine which outgoing communication link to send the packet to.
+The difference between the two lies with how they process the information in packets to determine where to send them. Routers, 'route' packets through the internet, to other routers using the IP address of the destination end system. Each Device connected to the internet has an IP address, something that looks like this:  '157.240.8.35'  (This is [Facebook's](www.facebook.com){:.fs-4 .md-0 .mr-0} address for me -- Facebooks IP address will likely be different for you).
+
+<div class="code-example" markdown="1">
+
+To find out the IP address of any website, open up terminal and type the following:
+
+```shell
+nslookup website-name-goes-here
+```
+
+In the example below we chose www.facebook.com
+
+<img src="https://emmanuelchristianos.github.io//assets/images/networking/nslookupfacebook.png">
+
+</div>
+
+This number is included into every little packet that gets stuffed with information when a end system wants to send something to that IP address. When everyone one of those packets reach a router, the router will examine the IP and then determine which outgoing communication link to send the packet to.
 
 Link Layer Switched however don’t actually look at the IP address at all and instead route those packets using what is called a MAC address. MAC stands for Media Access Control, a MAC address is what allows a Link Layer Switch to uniquely identify a device on the switches network. Since a switch does not use IP addresses it generally isn’t used as much as routers are in the core of the internet since it wont know what to do with incoming packets which have a destination that belongs to a computer outside of the switches network. It only knows about devices that it is physically connected to.
 
