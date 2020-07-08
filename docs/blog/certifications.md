@@ -97,7 +97,6 @@ Syllabus
 
 <summary>Click For Syllabus</summary>
 
-
 ### Mobile Devices
 {: .fs-6 .fw-400 .d-inline-block}
 
@@ -1084,9 +1083,9 @@ Syllabus
 
 {: .d-block}
 
-</details>
 </div>
-
+</details>
+{: .fs-4 .fw-400 }
 
 <div  markdown="1">
 ## Core Knowledge
