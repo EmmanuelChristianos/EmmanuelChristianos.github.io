@@ -52,6 +52,9 @@ details[open] summary:before {
 #normalDet {
 
     border: 2px solid #221d7b;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
     border-radius: 8px;
     background: #fff;
     color: black;
