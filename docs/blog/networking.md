@@ -475,13 +475,13 @@ Most of the tools that we will be using in the terminal are already installed on
 ```shell
 apt-get update
 ```
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/apt-get-update.png">
+<img src="/assets/images/networking/apt-get-update.png">
 3. Then the general form for install a package is
 ```shell
 apt-get install package-name-goes-here
 ```
 In the picture below I've install 'dnsutils' as an example
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/apt-get-install.png">
+<img src="/assets/images/networking/apt-get-install.png">
 
 Now you have installed your packet (in my case 'dnsutils')
 {: .d-block}
@@ -493,7 +493,7 @@ We will be using Wireshark at different points throughout the chapter. To instal
 
 1. Go to [Wireshark Downloads](https://www.wireshark.org/download.html){:.fs-4 .md-0 .mr-0}
 2. Click 'Stable Release' and then click the operating system you are using
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/wiresharkinstall.png">
+<img src="/assets/images/networking/wiresharkinstall.png">
 3. Open it up and your set
 
 <details id="warningD">
@@ -583,7 +583,7 @@ nslookup website-name-goes-here
 
 In the example below we chose www.facebook.com
 
-<img src="https://emmanuelchristianos.github.io//assets/images/networking/nslookupfacebook.png">
+<img src="/assets/images/networking/nslookupfacebook.png">
 
 </div>
 
