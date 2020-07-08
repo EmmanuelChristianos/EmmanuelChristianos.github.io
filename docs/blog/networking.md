@@ -13,7 +13,7 @@ parent: Blog
 	padding-bottom: 10px;
 }
 
-details {
+#warningD {
 	border-radius: 2px;
     background: #DEDFF6;
     color: black;
@@ -23,15 +23,21 @@ details {
 
 }
 
-details summary {
+#warningD #warningS {
     font-size: 17px;
     vertical-align: top;
     background: #7F61EF;
     color: #FFF;
     border-radius: 3px;
+    border-color: black;
     padding: 2px 5px;
     outline: none;
     text-align: center;
+}
+
+#warningD[open] #warningS {
+    background: #6C47EF;
+    color: #fff;
 }
 
 details summary::-webkit-details-marker {
@@ -42,9 +48,31 @@ details[open] summary:before {
     background-position: -18px 0;
 }
 
-details[open] summary {
-    background: #6C47EF;
+
+#normalDet {
+
+    border: 2px solid #221d7b;
+    border-radius: 8px;
+    background: #fff;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+
+
+}
+
+
+details summary {
+    
+    font-size: 17px;
+    vertical-align: top;
+    background: #221d7b;
     color: #fff;
+    border-radius: 3px;
+    padding: 2px 5px;
+    outline: none;
+    text-align: center;
 }
 
 </style>
@@ -104,10 +132,21 @@ Docker will only give you a command line to use and you will have to install the
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
+The following steps will walk you though how to install docker on a mac.
+{: .d-block .fs-4}
 
-<details >
+For Windows Users docker requires some extra steps: follow along here [Docker for Windows](https://docs.docker.com/docker-for-windows/){: .fs-4 .mb-4 .mb-md-0 } or follow the VirtualBox installation of Ubuntu here [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 } which may be easier.
+{: .d-block .fs-4}
 
-<summary> Warning: Instruction May Change! [Click]</summary>
+
+Click below to open up the steps!
+{: .d-block .fs-4}
+
+<details  id="normalDet" markdown="1">    
+<summary>Docker Installation and Set Up [Click]</summary>
+
+<details id="warningD">
+<summary id="warningS"> Warning: Instruction May Change! [Click]</summary>
 
 <p id="warningP">
 (Warning: The following instructions might not accurately represent the steps that you need to undertake to install and setup docker.
@@ -124,7 +163,6 @@ It is highly unlikely that the Docker commands themselves will change. However t
 <p id="warningP">
 If the following steps do not work for you then at the end of the steps there will be a more generalized guide to setting up Docker.)
 </p>
-
 </details>
 {: .fs-4 .fw-400 }
 
@@ -134,8 +172,9 @@ If the following steps do not work for you then at the end of the steps there wi
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/docker1.png">
 3. Open the Docker.dmg file and move the docker icon into your application.
 4. Go to your applications folder and open Docker
-<details>
-<summary> Warning: Unidentified Developer Solution [click]</summary>
+
+<details id="warningD">
+<summary id="warningS"> Warning: Unidentified Developer Solution [click]</summary>
 
 <p id="warningP">
 Some Mac users might receive a warning saying 'Docker' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
@@ -157,6 +196,7 @@ Some Mac users might receive a warning saying 'Docker' can't be opened because i
 4. At the bottom of the 'General' tab you should see the unidentified developer warning for docker with a button next to it that says 'Open Anyway' click 'Open Anyway'
 </p>
 </details>
+{: .fs-4 .fw-400 }
 
 <div markdown="1">
 5
@@ -206,11 +246,11 @@ We can verify that we have exited the Linux container by looking at the prompt. 
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/blurredprompt.png">
 
 You have now created an Ubuntu container using Docker.
-
-For Windows Users docker requires some extra steps: follow along here [Docker for Windows](https://docs.docker.com/docker-for-windows/){: .fs-4 .mb-4 .mb-md-0 } or follow the VirtualBox installation of Ubuntu here [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 } which may be easier.
-
 {: .d-inline}
 </div>
+
+</details >
+{: .fs-4 .fw-400 }
 
 #### VirtualBox Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
@@ -220,13 +260,17 @@ Setup
 
 Setting up an Linux Virtual Machine (Which is what VirtualBox is allowing us to do) is almost identical on both windows and Mac so the steps below are universal for both operating systems.
 
+<details  id="normalDet" markdown="1">    
+<summary>Docker Installation and Set Up [Click]</summary>
+
 1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads){: .fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/virtualboxdownload.png">
 2. Next head to [Ubuntu Downloads](https://ubuntu.com/download/desktop){:.fs-4 .md-0 .mr-0 } And click download
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/ubuntudownload.png">
 3. Open up VirtualBox
-<details>
-<summary> Warning: Unidentified Developer Solution [click]</summary>
+
+<details id="warningD" mardown="1">
+<summary id="warningS"> Warning: Unidentified Developer Solution [click]</summary>
 
 <p id="warningP">
 Some Mac users might receive a warning saying 'VirtualBox' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
@@ -248,6 +292,7 @@ Some Mac users might receive a warning saying 'VirtualBox' can't be opened becau
 4. At the bottom of the 'General' tab you should see the unidentified developer warning for Virtual Box with a button next to it that says 'Open Anyway', click 'Open Anyway'
 </p>
 </details>
+{: .fs-4 .fw-400 }
 
 <div markdown="1">
 4
@@ -405,10 +450,14 @@ After that on the right hand side of the screen click the small blue disk and cl
 
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/whoareyouvm.png">
 {: .d-block}
+
 </div>
 
 Thats it your done! Now you have a working Linux VM running on VirtualBox. For the Application Installation Section you can choose to either install software from that section directly onto your computer or onto your VM (granted that the software is compatible with the destination OS). We allocated enough memory for your virtual hard disk drive to store the applications that are mentioned in the installation section.
 {: .d-block}
+
+</details>
+{: .fs-4 .fw-400 }
 
 ### Application Installation
 {: .fs-6 .fw-400 .d-inline-block}
@@ -443,8 +492,9 @@ We will be using Wireshark at different points throughout the chapter. To instal
 2. Click 'Stable Release' and then click the operating system you are using
 <img src="https://emmanuelchristianos.github.io//assets/images/networking/wiresharkinstall.png">
 3. Open it up and your set
-<details>
-<summary> Warning: Unidentified Developer Solution [click]</summary>
+
+<details id="warningD">
+<summary id="warningS"> Warning: Unidentified Developer Solution [click]</summary>
 
 <p id="warningP">
 Some Mac users might receive a warning saying 'Wireshark' can't be opened because it is from  an unidentified developer. If this happens to you follow these steps:
@@ -466,6 +516,7 @@ Some Mac users might receive a warning saying 'Wireshark' can't be opened becaus
 4. At the bottom of the 'General' tab you should see the unidentified developer warning for Wireshark with a button next to it that says 'Open Anyway', click 'Open Anyway'
 </p>
 </details>
+{: .fs-4 .fw-400 }
 
 <div  markdown="1">
 ## Prerequisite Knowledge
