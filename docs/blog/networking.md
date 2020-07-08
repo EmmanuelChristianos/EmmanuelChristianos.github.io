@@ -571,7 +571,7 @@ There are two common types of packet switches:
 1. Routers
 2. Link Layer Switches
 
-The difference between the two lies with how they process the information in packets to determine where to send them. Routers, 'route' packets through the internet, to other routers using the IP address of the destination end system. Each Device connected to the internet has an IP address, something that looks like this:  '157.240.8.35'  (This is [Facebook's](www.facebook.com){:.fs-4 .md-0 .mr-0} address for me -- Facebooks IP address will likely be different for you).
+The difference between the two lies with how they process the information in packets to determine where to send them. Routers, 'route' packets through the internet, to other routers using the IP address of the destination end system. Each Device connected to the internet has an IP address, something that looks like this:  '157.240.8.35' which is www.facebook.com's IP address for me -- Facebooks IP address will likely be different for you).
 
 <div class="code-example" markdown="1">
 
@@ -617,13 +617,29 @@ Public protocols are used by lots of people everywhere in the internet. Applicat
 #### What Are Protocols?
 {: .fs-5 .fw-200 .d-block}
 
-Protocols are simply a defined set of instruction with which two entities adhere too to complete some task. In networking different types of protocols are used for each layer of the internet. We will be going into detail about the different layers of the internet later but what you need to know now Is the internet is has 5 different layer and the layers are referred to by the 'Internet layered protocol stack'. Each Layer utilises different protocol to perform their function. 
+Protocols are simply a defined set of instruction with which two entities adhere too to complete some task. In networking, different types of protocols are used for each layer of the internet. We will be going into detail about the different layers of the internet later but what you need to know now is the internet is has 5 different layer and the layers are referred to by the 'Internet layered protocol stack'. Each Layer utilises different protocol to perform their function. 
 
 The top level is the Application layer which looks at the distributed application that use the internet to communicate. The World Wide Web is a Internet application. You use your browser to connect with different servers in the internet that store website data. The way the browser and the servers are able to communicate their needs is through a protocol called HTTP. HTTP provides a language that your browser and some websites server both understand so that you can retrieve the website information to 'surf the web'. HTTP is a public protocol which will be reviewed later, and is just one of many public application protocol defined in a RFC by the IETF. There are also many proprietary application protocol like the protocols Skype uses to connect users all around the world.
 {: .d-block}
 
-#### What Is A Layered Protocol Stack?
+#### What is the Layered Internet Protocol Stack?
 {: .fs-5 .fw-200 .d-block}
+
+The function of the internet is broken up into different layers which together are called the 'Internet Protocol Stack'. The stack has 5 layers, from top to bottom they are:
+
+1. Application Layer
+2. Transport Layer
+3. Network Layer
+4. Link Layer
+5. Physical Layer
+
+Each layers is responsible for preforming different tasks, and as we mentioned in the [What are protocols?](#what-are-protocols){:.fs-4 .md-0 .mr-0} section, they perform their function in accordance to specific protocols. This layered architecture of the internet makes it easier to modify and perform maintenance on a specific layer. As you will see soon, each layer:
+
+1. Takes the information from the previous layer below it
+2. Does something with that information that will be used by the layer above 
+3. Sends that information to the next layer above it.
+
+You can alter the functionality of a layer as long as you still perform the above three steps. The steps ensure that the adjacent layers don’t know the difference of what is happening because the output of the altered layer is the same, however its internal workings may have been improved.
 
 </div>
 
