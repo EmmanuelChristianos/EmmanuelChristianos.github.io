@@ -560,6 +560,7 @@ Syllabus
 13. SCSI
 14. eSATA
 15. Molex
+
 {: .d-block}
 
 #### Given a scenario, install RAM types
@@ -1083,9 +1084,10 @@ Syllabus
 
 {: .d-block}
 
-</div>
+
 </details>
-{: .fs-4 .fw-400 }
+
+</div>
 
 <div  markdown="1">
 ## Core Knowledge
