@@ -78,6 +78,42 @@ details summary {
     text-align: center;
 }
 
+#greenHeading {
+
+    border: 2px solid #00AA8E;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+
+#purpleHeading {
+
+    border: 2px solid #725CD9;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+
+#yellowHeading {
+
+    border: 2px solid #F9D73B;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+
+#redHeading{
+
+    border: 2px solid #F0645E;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+
 </style>
 
 # Networking Fundamentals
@@ -98,42 +134,35 @@ The Network Fundamentals Chapter has a corresponding Github repository which con
 
 
 <div  markdown="1">
+
+<div id="greenHeading" markdown="1">
 ## Environment Setup
 {: .fs-7.fw-400 .d-inline-block}
 
 Setup
 {: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-0}
+</div>
 
 Networking Fundamentals follows a more theory based approach and doesn't involve a lot of practical content. Majority of the practical content that does appear in the following chapter will work regardless of the operating system you are using. However if you would like to be able to follow along exactly with the instructions detailed in this chapter then you should complete the steps in the [OS Setup](#os-setup){:.fs-4 .md-0 .mr-2 }page to replicate the environment that was used by the author.
 
-{: .d-block}
-
+<div id="greenHeading" markdown="1">
 ### OS Setup
 {: .fs-6 .fw-400 .d-inline-block}
-
-Setup
-{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
+</div>
 
 The exercises in this chapter and their corresponding instructions have been completed on a Linux system. If you already are using Linux then you can move onto the [Application Installation](#application-installation){:.fs-4 .md-0 .mr-0 } section to install the required software.
 
 If you are working on an OS other than Linux I will be detailing two ways to replicate the Linux environment used in this chapter. The first will be using [Docker](#docker-installation-and-setup){:.fs-4 .md-0 .mr-0 } and the second will be using [VirtualBox](#virtualbox-installation-and-setup){:.fs-4 .md-0 .mr-0 }. Both can be downloaded an set up on any major operating system.
-{: .d-block}
 
-
+<div id="greenHeading" markdown="1">
 ### Docker or VirtualBox?
 {: .fs-6 .fw-400 .d-inline-block}
-
-Setup
-{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
+</div>
 
 Docker will only give you a command line to use and you will have to install the applications that will be used on your own computer. VirtualBox however will give you a Graphical User Interface (GUI) for the operating system you will download. You can install the applications that we will be using on either however for some application we will be using the GUI and so if you are using Docker you will have to download that specific application on your own computer. If you use VirtualBox you can download all the application needed onto the VirtualBox we set up. 
-{: .d-block}
 
 #### Docker Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
-
-Setup
-{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
 
 The following steps will walk you though how to install docker on a mac.
 {: .d-block .fs-4}
@@ -258,13 +287,10 @@ You have now created an Ubuntu container using Docker.
 #### VirtualBox Installation and Setup
 {: .fs-5 .fw-200 .d-inline-block}
 
-Setup
-{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-2}
-
 Setting up an Linux Virtual Machine (Which is what VirtualBox is allowing us to do) is almost identical on both windows and Mac so the steps below are universal for both operating systems.
 
 <details  id="normalDet" markdown="1">    
-<summary>Docker Installation and Set Up [Click]</summary>
+<summary>VirtualBox Installation and Set Up [Click]</summary>
 
 1. Go to [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads){: .fs-4 .md-0 .mr-0 } click on the platform package that corresponds with your operating system and download VirtualBox
 <img src="/assets/images/networking/virtualboxdownload.png">
@@ -462,13 +488,15 @@ Thats it your done! Now you have a working Linux VM running on VirtualBox. For t
 </details>
 {: .fs-4 .fw-400 }
 
+<div id="greenHeading" markdown="1">
 ### Application Installation
 {: .fs-6 .fw-400 .d-inline-block}
-
-Setup
-{: .fs-2 .fw-200 .label .label-green .px-1 .py-0 .d-inline-block .mt-1}
+</div>
 
 Most of the tools that we will be using in the terminal are already installed on Ubuntu. If you already have a distribution of Linux installed that isn't Ubuntu you should still have all the command line tools that are used. However if for some reason you try to use a command line tool in the exercises below and you don't seem to have it on your computer, follow the steps below to install it.
+
+<details  id="normalDet" markdown="1">    
+<summary>Application Installation and Set Up [Click]</summary>
 
 1. Open up terminal
 2. Type in the following to update your packaging system (System that manages installed packages)
@@ -486,10 +514,15 @@ In the picture below I've install 'dnsutils' as an example
 Now you have installed your packet (in my case 'dnsutils')
 {: .d-block}
 
+</details>
+
 Wireshark Installation
 {: .fs-5 .fw-400}
 
 We will be using Wireshark at different points throughout the chapter. To install:
+
+<details  id="normalDet" markdown="1">    
+<summary>Wireshark Installation and Set Up [Click]</summary>
 
 1. Go to [Wireshark Downloads](https://www.wireshark.org/download.html){:.fs-4 .md-0 .mr-0}
 2. Click 'Stable Release' and then click the operating system you are using
@@ -520,22 +553,24 @@ Some Mac users might receive a warning saying 'Wireshark' can't be opened becaus
 </p>
 </details>
 {: .fs-4 .fw-400 }
+</details>
 
 </div>
 
 <div  markdown="1">
+
+<div id="yellowHeading" markdown="1">
 ## Core Knowledge
 {: .fs-7.fw-400 .d-inline-block}
 
 Core
 {: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-0}
-
+</div>
+<br>
+<div id="yellowHeading" markdown="1">
 ### What Is The Internet? An Introduction!
 {: .fs-6 .fw-400 .d-block}
-
-
-#### How Is The Internet Composed?
-{: .fs-5 .fw-200 .d-block}
+</div>
 
 The Internet is a global network of networks. It is made up from the interconnection of smaller networks, whom may be made up of smaller networks and so on until you create what looks like a tree of networks. The smallest networks in the internet being singular, would be the leaves of your tree. The leaf networks of the internet would be the networks in homes, Small Office Home Office (SOHO) businesses etc.
 
@@ -583,14 +618,14 @@ Link Layer Switched however don’t actually look at the IP address at all and i
 
 {: .d-block}
 
-#### The Internet is a service?
+#### The Internet provides a service!
 {: .fs-5 .fw-200 .d-block}
 
 One reason why the internet has blown up the way it has is because of the service it provides. It allows application on different end systems to be able to communicate with each other. This is why we have electronic mail, Instant Messaging, Online games etc. A application can connect an infinite number of different end systems together to be used for different reasons. Such applications are called distributed application since they are distributed amongst multiple end systems. 
 
 {: .d-block}
 
-#### How do Internet Application Function?
+#### How do Internet Application Work?
 {: .fs-5 .fw-200 .d-block}
 
 Internet Applications define a proprietary protocol or use a public protocol to define how they send and receive information on the internet. A proprietary protocol is one which is designed by a company for use only by that company. A public protocol is defined in what is called a 'Request For Comments' (RFC).
@@ -630,6 +665,87 @@ Each layers is responsible for preforming different tasks, and as we mentioned i
 3. Sends that information to the next layer above it.
 
 You can alter the functionality of a layer as long as you still perform the above three steps. The steps ensure that the adjacent layers don’t know the difference of what is happening because the output of the altered layer is the same, however its internal workings may have been improved.
+
+#### Gaining Access To The Internet
+{: .fs-6 .fw-400 .d-block}
+
+Gaining access to the internet is a varied process. Ultimately everyone connects through the same steps however at each step there are various different options and choices that each have their advantages and disadvantages. Customers who wish to access the internet can then tailor their connection to their specific needs.
+
+Specifically, when you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
+{: .d-block}
+
+#### What Is A ISP?
+{: .fs-6 .fw-400 .d-block}
+
+Firstly, what is an ISP? An ISP is a company that provides you access to internet through different forms an packages. In Australia common ISPs are:
+1. Telstra
+2. Optus
+3. Vodafone
+{: .d-block}
+
+And the list goes on. They essentially fill the role of connecting different networks together. There are different tiers of ISP which mainly differ in the size of the networks that they connect together.
+{: .d-block}
+ 
+Since it is the job of an ISP to connect different networks together, and ISPs are essentially really big networks consisting of lots of smaller networks, ISPs can be connected together by larger ISPs. This is essentially the job of the larger ISPs in the internet, however no matter how big the ISPs are they can always provide access to the smallest network such as a home network. (Generally they don’t since most home networks would be provided access through a smaller ISP.)
+{: .d-block}
+ 
+ISPs that refer to a smaller area don’t actually have to be smaller than an ISP that refers to a larger area. E.g. A national ISP for a very small country might consists of fewer networks than a Regional ISP has for a much larger country. However generally the case is that a those smaller ISPs consist of fewer networks. The different types of ISPs approximately from smallest to largest are:
+ 
+##### ‘Local ISPs’
+{: .fs-4 .no_toc}
+
+ ISPs that provide networks access to customer base in a city or district consisting of homes and corporate customers. They are the smallest type of ISP that there is and are therefore also part of the customer base for bigger ISPs such as Regional, National and International ISPs.
+ 
+##### ‘Regional ISPs’
+{: .fs-4 .no_toc}
+
+Similar to local ISPs, a country might even use them interchangeably, however a regional ISP tends to cover a larger area. E.g. A region of a country. They are commonly customers of National, International and Tier 1 ISPs.
+ 
+##### ‘National ISPs’
+{: .fs-4 .no_toc}
+
+Generally connect regional ISPs together in a country, are commonly customers of International ISPs and tier 1 ISPs.
+ 
+##### ‘International ISPs’
+{: .fs-4 .no_toc}
+
+Generally connect different National ISPs together and therefore provide access to people who want to connect from those different countries. 
+{: .d-block}
+
+##### ‘Tier 1 ISPs’
+{: .fs-4 .no_toc}
+
+The largest ISPs that exists. There are currently around 13 Tier 1 ISPs and they connect some of the largest networks that exist, forming the global internet. They are not customers of any other ISP other than different Tier 1 ISPs.
+{: .d-block}
+
+#### How does and ISP provide me access to the internet?
+{: .fs-6 .fw-400 .d-block}
+
+What are all the different ways an ISP can provide me access to the internet? They are:
+ 
+1. Dial Up
+2. Digital Subscriber Line (DSL)
+3. Cable
+4. Optical Fibre
+5. Satellite
+6. Cellular
+ 
+##### Dial up
+{: .fs-4}
+ 
+‘Dial Up’ is an older type of internet access that is near extinct due to newer types of access like DSL. Dial Up utilizes your telephone line and a dial up modem to connect to the internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fibre.
+ 
+##### Digital Subscriber Line (DSL)
+{: .fs-4}
+##### Cable
+{: .fs-4}
+##### Optical Fibre
+{: .fs-4}
+##### Satellite
+{: .fs-4}
+##### Cellular
+{: .fs-4}
+
 
 </div>
 
