@@ -558,9 +558,37 @@ You can alter the functionality of a layer as long as you still perform the abov
 {: .fs-6 .fw-400 .d-block}
 
 Gaining access to the internet is a varied process. Ultimately everyone connects through the same steps however at each step there are various different options and choices that each have their advantages and disadvantages. Customers who wish to access the internet can then tailor their connection to their specific needs.
+{: .d-block}
 
 Specifically, when you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
 {: .d-block}
+
+#### What is a Modem?
+{: .fs-6 .fw-400 .d-block}
+
+When you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
+Most home routers today aren’t just routers, they’re actually 3 different machines compacted into one little box. Those machines are your:
+1. Modem
+2. Router
+3. Wireless Access Point (WAP)
+{: .d-block}
+
+You will often hear people use the terms modem and router interchangeable when they are actually very different. This mixup happens so frequently because most of the tasks that your average home user would perform regarding the modem/router/WAP like: plugging it in, restarting it or turning it on, would actually be done to the box that houses all three devices. 
+
+##### Modem
+{: .fs-4 .no_toc}
+
+The data that travels along a physical connection to and from the ISP travels in analogue waves, however your computers use digital information.  The modem is responsible for translating that information before your computer receives it so that the computer may understand. Likewise when your computer wants to send information to someone over the internet data needs to leave your computer and travel along some physical mediums, before it does this the modem must convert that digital data back to analogue. 
+
+##### Router
+{: .fs-4 .no_toc}
+
+Routers analyse the destination IP addresses of packets passing through that router to determine where to send them next. They use things such as routing tables and protocol to help them better understand the landscape of the internet around them. 
+
+##### Wireless Access Point (WAP)
+{: .fs-4 .no_toc}
+
+A Wireless Access Point is a location which allows users to connect to a router through WIFI. Without a wireless access point you would have to be hardwired to a router using a ethernet cable to connect to the internet. (Or use other radio wave based access technologies such as 3g,4g,LTE,5g satellite etc) The Wireless access point then connects to the router using a ethernet cables, so you connect to the WAP through radio waves and the WAP connect you to the router through a ethernet cable. 
 
 #### What Is A ISP?
 {: .fs-6 .fw-400 .d-block}
@@ -578,11 +606,12 @@ Since it is the job of an ISP to connect different networks together, and ISPs a
 {: .d-block}
  
 ISPs that refer to a smaller area don’t actually have to be smaller than an ISP that refers to a larger area. E.g. A national ISP for a very small country might consists of fewer networks than a Regional ISP has for a much larger country. However generally the case is that a those smaller ISPs consist of fewer networks. The different types of ISPs approximately from smallest to largest are:
+{: .d-block}
  
 ##### ‘Local ISPs’
 {: .fs-4 .no_toc}
 
- ISPs that provide networks access to customer base in a city or district consisting of homes and corporate customers. They are the smallest type of ISP that there is and are therefore also part of the customer base for bigger ISPs such as Regional, National and International ISPs.
+ISPs that provide networks access to customer base in a city or district consisting of homes and corporate customers. They are the smallest type of ISP that there is and are therefore also part of the customer base for bigger ISPs such as Regional, National and International ISPs.
  
 ##### ‘Regional ISPs’
 {: .fs-4 .no_toc}
@@ -617,20 +646,24 @@ What are all the different ways an ISP can provide me access to the internet? Th
 4. Optical Fibre
 5. Satellite
 6. Cellular
- 
+
 ##### Dial up
 {: .fs-4}
- 
-‘Dial Up’ is an older type of internet access that is near extinct due to newer types of access like DSL. Dial Up utilizes your telephone line and a dial up modem to connect to the internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fibre.
+
+Dial Up is an older type of internet access that is near extinct due to newer types of access like DSL. Dial Up utilises your telephone line and a dial up modem to connect to the internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fibre.
  
 ##### Digital Subscriber Line (DSL)
 {: .fs-4}
+
 ##### Cable
 {: .fs-4}
+
 ##### Optical Fibre
 {: .fs-4}
+
 ##### Satellite
 {: .fs-4}
+
 ##### Cellular
 {: .fs-4}
 
