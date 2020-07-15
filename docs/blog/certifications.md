@@ -4,53 +4,6 @@ title: Certifications
 parent: Blog
 ---
 
-<style type="text/css">
-
-#warningP {
-
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 10px;
-}
-
-details {
-    border-radius: 2px;
-    background: #DEDFF6;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 15px;
-
-
-
-}
-
-details summary {
-    font-size: 17px;
-    vertical-align: top;
-    background: #7F61EF;
-    color: #FFF;
-    border-radius: 3px;
-    padding: 2px 5px;
-    outline: none;
-    text-align: center;
-}
-
-details summary::-webkit-details-marker {
-    display: none;
-}
-
-details[open] summary:before {
-    background-position: -18px 0;
-
-}
-
-details[open] summary {
-    background: #6C47EF;
-    color: #fff;
-}
-
-</style>
-
 # CompTIA A+ Certification
 {: .no_toc .fs-9}
 
@@ -67,22 +20,25 @@ This Chapter covers the majority of the core knowledge that is tested in the Com
 1. TOC
 {:toc}
 
+<div id="purpleHeading" markdown="1">
 ## Intro
 {: .fs-7.fw-400 .d-inline-block}
 
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
+</div>
 
 This is a purely theory based chapter, and so doesn't require any environment setup. This certification is an entry-level certification and therefore does not require any prerequisite knowledge either, however the syllabus and exam breakdown will be placed in this section under the tag 'Syllabus' as it is important to understand what is going to be expected of you before you start studying.
 
 <div class="code-example" markdown="1">
 
+<div id="purpleHeading" markdown="1">
 ## Syllabus
 {: .fs-7.fw-400 .d-inline-block}
 
 Syllabus
 {: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
+</div>
 
 | Sections                            | Percentage of Questions| Percent as number|
 |:------------------------------------|:-----------------------|:-----------------|
@@ -93,24 +49,18 @@ Syllabus
 | Hardware and Network Troubleshooting| 27%    				   | 24 Questions     |
 
 
-<details markdown="1">
+<details  id="normalDet" markdown="1"> 
 
 <summary>Click For Syllabus</summary>
 
 ### Mobile Devices
 {: .fs-6 .fw-400 .d-inline-block .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
 This sections attempts to cover the 'Mobile Devices' knowledge requirements for the CompTIA A+ Exam
 {: .d-block .fs-5}
 
 #### Given a scenario, install and configure laptop hardware and components
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Hardware/device replacement
 	- Keyboard
@@ -136,9 +86,6 @@ Syllabus
 #### Given a scenario, install components within the display of a laptop
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Types
     - LCD
     - OLED
@@ -151,9 +98,6 @@ Syllabus
 
 #### Given a scenario, use appropriate laptop features
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Special function keys
     - Dual displays
@@ -177,9 +121,6 @@ Syllabus
 #### Compare and contrast characteristics of various types of other mobile devices
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Tablets
 2. Smartphones
 3. Wearable technology devices
@@ -192,9 +133,6 @@ Syllabus
 
 #### Given a scenario, connect and configure accessories and ports of other mobile devices
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Connection types
     - Wired
@@ -219,9 +157,6 @@ Syllabus
 
 #### Given a scenario, configure basic mobile device network connectivity and application support
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Wireless/cellular data network (enable/disable)
     - Hotspot
@@ -252,9 +187,6 @@ Syllabus
 #### Given a scenario, use methods to perform mobile device synchronization
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Synchronization methods
     - Synchronize to the cloud
     - Synchronize to the desktop
@@ -281,17 +213,11 @@ Syllabus
 ### Networking
 {: .fs-6 .fw-400 .d-inline-block .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
 This sections attempts to cover the 'Networking' knowledge requirements for the CompTIA A+ Exam
 {: .d-block .fs-5}
 
 #### Compare and contrast TCP and UDP ports, protocols, and their purposes
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Ports and protocols
     - 21 – FTP
@@ -317,9 +243,6 @@ Syllabus
 #### Compare and contrast common networking hardware devices
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Routers
 2. Switches
     - Managed
@@ -342,9 +265,6 @@ Syllabus
 
 #### Given a scenario, install and configure a basic wired/wireless SOHO network
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Router/switch functionality
 2. Access point settings
@@ -377,9 +297,6 @@ Syllabus
 #### Compare and contrast wireless networking protocols
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. 802.11a
 2. 802.11b
 3. 802.11g
@@ -404,9 +321,6 @@ Syllabus
 #### Summarize the properties and purposes of services provided by networked hosts
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Server roles
     - Web server
     - File server
@@ -428,8 +342,6 @@ Syllabus
 #### Explain common network configuration concepts
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 1. IP addressing
     - Static
     - Dynamic
@@ -448,9 +360,6 @@ Syllabus
 
 #### Compare and contrast Internet connection types, network types, and their features
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Internet connection types
     - Cable
@@ -474,9 +383,6 @@ Syllabus
 #### Given a scenario, use appropriate networking tools
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Crimper
 2. Cable stripper
 3. Multimeter
@@ -490,17 +396,11 @@ Syllabus
 ### Hardware
 {: .fs-6 .fw-400 .d-inline-block .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
 This sections attempts to cover the 'Hardware' knowledge requirements for the CompTIA A+ Exam
 {: .d-block .fs-5}
 
 #### Explain basic cable types, features, and their purposes
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Network cables
     - Ethernet
@@ -542,9 +442,6 @@ Syllabus
 #### Identify common connector types
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. RJ-11
 2. RJ-45
 3. RS-232
@@ -566,9 +463,6 @@ Syllabus
 #### Given a scenario, install RAM types
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. RAM types
     - SODIMM
     - DDR2
@@ -583,9 +477,6 @@ Syllabus
 
 #### Given a scenario, select, install and configure storage devices
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Optical drives
     - CD-ROM/CD-RW
@@ -620,9 +511,6 @@ Syllabus
 
 #### Given a scenario, install and configure motherboards, CPUs, and add-on cards
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Motherboard form factor
     - ATX
@@ -680,9 +568,6 @@ Syllabus
 #### Explain the purposes and uses of various peripheral types
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Printer
 2. ADF/flatbed scanner
 3. Barcode scanner/QR scanner
@@ -710,9 +595,6 @@ Syllabus
 #### Summarize power supply types and features
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Input 115V vs. 220V
 2. Output 5V vs. 12V
 3. 24-pin motherboard adapter
@@ -723,9 +605,6 @@ Syllabus
 
 #### Given a scenario, select and configure appropriate components for a custom PC configuration to meet customer specifications or needs
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Graphic/CAD/CAM design workstation
     - SSD
@@ -761,9 +640,6 @@ Syllabus
 #### Given a scenario, install and configure common devices
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Desktop
     - Thin client
     - Thick client
@@ -779,9 +655,6 @@ Syllabus
 
 #### Given a scenario, configure SOHO multifunction devices/printers and settings
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Use appropriate drivers for a given operating system
     - Configuration settings
@@ -812,9 +685,6 @@ Syllabus
 #### Given a scenario, install and maintain various print technologies
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Laser
     - Imaging drum, fuser assembly, transfer belt, transfer roller, pickup rollers, separate pads, duplexing assembly
     - Imaging process: processing, charging, exposing, developing, transferring, fusing, and cleaning
@@ -844,17 +714,11 @@ Syllabus
 ### Visualization and Cloud Computing
 {: .fs-6 .fw-400 .d-inline-block .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
 This sections attempts to cover the 'Visualization and Cloud Computing' knowledge requirements for the CompTIA A+ Exam
 {: .d-block .fs-5}
 
 #### Compare and contrast cloud computing concepts
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common cloud models
     - IaaS
@@ -881,9 +745,6 @@ Syllabus
 #### Given a scenario, set up and configure client-side visualization
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Purpose of virtual machines
 2. Resource requirements
 3. Emulator requirements
@@ -896,17 +757,11 @@ Syllabus
 ### Hardware and Network Troubleshooting
 {: .fs-6 .fw-400 .d-inline-block .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline-block .mt-1}
-
 This sections attempts to cover the 'Hardware and Network Troubleshooting' knowledge requirements for the CompTIA A+ Exam
 {: .d-block .fs-5}
 
 #### Given a scenario, use the best practice methodology to resolve problems
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Always consider corporate policies, procedures, and impacts before implementing changes
 1. Identify the problem
@@ -926,9 +781,6 @@ Syllabus
 
 #### Given a scenario, troubleshoot problems related to motherboards, RAM, CPUs, and power
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
     - Unexpected shutdowns
@@ -955,9 +807,6 @@ Syllabus
 #### Given a scenario, troubleshoot hard drives and RAID arrays
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Common symptoms
     - Read/write failure
     - Slow performance
@@ -974,9 +823,6 @@ Syllabus
 
 #### Given a scenario, troubleshoot video, projector, and display issues
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
     - VGA mode
@@ -995,9 +841,6 @@ Syllabus
 
 #### Given a scenario, troubleshoot common mobile device issues while adhering to the appropriate procedures
 {: .fs-5 .fw-200 .d-inline .no_toc}
-
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
 
 1. Common symptoms
     - No display
@@ -1033,9 +876,6 @@ Syllabus
 #### Given a scenario, troubleshoot printers
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Common symptoms
     - Streaks
     - Faded prints
@@ -1063,9 +903,6 @@ Syllabus
 #### Given a scenario, troubleshoot common wired and wireless network problems
 {: .fs-5 .fw-200 .d-inline .no_toc}
 
-Syllabus
-{: .fs-2 .fw-200 .label .label-purple .px-1 .py-0 .d-inline .mt-0}
-
 1. Common symptoms
     - Limited connectivity
     - Unavailable resources
@@ -1090,236 +927,155 @@ Syllabus
 </div>
 
 <div  markdown="1">
+
+<div id="yellowHeading" markdown="1">    
 ## Core Knowledge
 {: .fs-7.fw-400 .d-inline-block}
 
 Core
 {: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-0}
+</div>
 
+<div id="yellowHeading" markdown="1">
 ### Installing Hardware and Display Components
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Laptop Features and Mobile Device Types
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Accessories and Mobile Device Synchronization
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Mobile Device Network Connectivity and Application Support
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### TCP and UDP Ports
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Networking
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Configuring a WiredWireless Network
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Wireless Networking Protocols
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Network Hosts
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Implementing Network Concepts
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Network Types
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Networking Tools
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Basic Cable Types
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Connectors
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Random Access Memory (RAM)
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Storage Solutions
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Working with Motherboards, CPU's and Add-on Cards
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Working With Peripheral Devices
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Power Supplies
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Common Devices
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Custom PC Configuration
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### SOHO Devices
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Printers
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Cloud Computing
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Visualization
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Resolving Problems
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Trouble Shooting
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
+<div id="yellowHeading" markdown="1">
 ### Trouble Shooting Printers
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Core
-{: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
 </div>
 
 
