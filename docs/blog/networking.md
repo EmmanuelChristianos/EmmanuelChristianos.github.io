@@ -455,6 +455,7 @@ Core
 {: .fs-2 .fw-200 .label .label-yellow .px-1 .py-0 .d-inline-block .mt-0}
 </div>
 <br>
+
 <div id="yellowHeading" markdown="1">
 ### What Is The Internet? An Introduction!
 {: .fs-6 .fw-400 .d-block}
@@ -465,13 +466,18 @@ The Internet is a global network of networks. It is made up from the interconnec
 So what exactly is a network? A network is simply a collection of devices that are connected to each other in some way, which allows them to communicate. So if think about the internet, it is connecting networks of devices with whom could already talk amongst themselves with other devices outside of their network -- specifically with the network they were connected with -- The internet does this with the aim of connecting all networks together. As long as you are connected to some network the internet can connect you to the rest. 
 {: .d-block}
 
-#### What devices make up the Internet?
+<div id="yellowHeading" markdown="1">
+#### Overview of the internet
+{: .fs-6 .fw-400 .d-block}
+</div>
+
+##### What devices make up the Internet?
 {: .fs-5 .fw-200 .d-block}
 
 Networks consist of many different types of devices from: Computers, Servers, Smartphones, TVs, Gaming systems etc. When you think about your home network, a leaf on the tree of the internet, can you think of all the devices connected to your internet be it through WIFI or ethernet cable? This would be your Local Area Network (LAN). All the devices that are part of a network are called 'End Systems', or sometimes you will hear 'Hosts'.
 {: .d-block}
 
-#### How do devices in the internet connect with each other?
+##### How do devices in the internet connect with each other?
 {: .fs-5 .fw-200 .d-block}
 
 End Systems communicate with each other through 'Communication Links' and 'Packet Switches'. There are many different types of communication links that we will go over soon, all you need to know now is that these links are what carry the actual bits of data to and from other end systems. 
@@ -506,7 +512,7 @@ Link Layer Switched however don’t actually look at the IP address at all and i
 
 {: .d-block}
 
-#### The Internet provides a service!
+##### The Internet provides a service!
 {: .fs-5 .fw-200 .d-block}
 
 One reason why the internet has blown up the way it has is because of the service it provides. It allows application on different end systems to be able to communicate with each other. This is why we have electronic mail, Instant Messaging, Online games etc. A application can connect an infinite number of different end systems together to be used for different reasons. Such applications are called distributed application since they are distributed amongst multiple end systems. 
@@ -527,7 +533,7 @@ Public protocols are used by lots of people everywhere in the internet. Applicat
 
 {: .d-block}
 
-#### What Are Protocols?
+##### What Are Protocols?
 {: .fs-5 .fw-200 .d-block}
 
 Protocols are simply a defined set of instruction with which two entities adhere too to complete some task. In networking, different types of protocols are used for each layer of the internet. We will be going into detail about the different layers of the internet later but what you need to know now is the internet is has 5 different layer and the layers are referred to by the 'Internet layered protocol stack'. Each Layer utilises different protocol to perform their function. 
@@ -535,7 +541,7 @@ Protocols are simply a defined set of instruction with which two entities adhere
 The top level is the Application layer which looks at the distributed application that use the internet to communicate. The World Wide Web is a Internet application. You use your browser to connect with different servers in the internet that store website data. The way the browser and the servers are able to communicate their needs is through a protocol called HTTP. HTTP provides a language that your browser and some websites server both understand so that you can retrieve the website information to 'surf the web'. HTTP is a public protocol which will be reviewed later, and is just one of many public application protocol defined in a RFC by the IETF. There are also many proprietary application protocol like the protocols Skype uses to connect users all around the world.
 {: .d-block}
 
-#### What is the Layered Internet Protocol Stack?
+##### What is the Layered Internet Protocol Stack?
 {: .fs-5 .fw-200 .d-block}
 
 The function of the internet is broken up into different layers which together are called the 'Internet Protocol Stack'. The stack has 5 layers, from top to bottom they are:
@@ -563,7 +569,7 @@ Gaining access to the internet is a varied process. Ultimately everyone connects
 Specifically, when you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
 {: .d-block}
 
-#### What is a Modem?
+##### What is a Modem?
 {: .fs-6 .fw-400 .d-block}
 
 When you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
@@ -590,7 +596,7 @@ Routers analyse the destination IP addresses of packets passing through that rou
 
 A Wireless Access Point is a location which allows users to connect to a router through WIFI. Without a wireless access point you would have to be hardwired to a router using a ethernet cable to connect to the internet. (Or use other radio wave based access technologies such as 3g,4g,LTE,5g satellite etc) The Wireless access point then connects to the router using a ethernet cables, so you connect to the WAP through radio waves and the WAP connect you to the router through a ethernet cable. 
 
-#### What Is A ISP?
+##### What Is A ISP?
 {: .fs-6 .fw-400 .d-block}
 
 Firstly, what is an ISP? An ISP is a company that provides you access to internet through different forms an packages. In Australia common ISPs are:
@@ -606,7 +612,6 @@ Since it is the job of an ISP to connect different networks together, and ISPs a
 {: .d-block}
  
 ISPs that refer to a smaller area don’t actually have to be smaller than an ISP that refers to a larger area. E.g. A national ISP for a very small country might consists of fewer networks than a Regional ISP has for a much larger country. However generally the case is that a those smaller ISPs consist of fewer networks. The different types of ISPs approximately from smallest to largest are:
-{: .d-block}
  
 ##### ‘Local ISPs’
 {: .fs-4 .no_toc}
@@ -635,7 +640,7 @@ Generally connect different National ISPs together and therefore provide access 
 The largest ISPs that exists. There are currently around 13 Tier 1 ISPs and they connect some of the largest networks that exist, forming the global internet. They are not customers of any other ISP other than different Tier 1 ISPs.
 {: .d-block}
 
-#### How does and ISP provide me access to the internet?
+##### How does and ISP provide me access to the internet?
 {: .fs-6 .fw-400 .d-block}
 
 What are all the different ways an ISP can provide me access to the internet? They are:
@@ -647,55 +652,73 @@ What are all the different ways an ISP can provide me access to the internet? Th
 5. Satellite
 6. Cellular
 
-##### Dial up
+###### Dial up
 {: .fs-4}
 
 Dial Up is an older type of internet access that is near extinct due to newer types of access like DSL. Dial Up utilises your telephone line and a dial up modem to connect to the internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fibre.
  
-##### Digital Subscriber Line (DSL)
+###### Digital Subscriber Line (DSL)
 {: .fs-4}
 
-##### Cable
+DSL like Dial Up makes use of the existing telephone line you have connected to your house or building. DSL requires that you have a DSL modem as has several improvements on Dial Up most notably that is is much faster and allows you to talk on the phone whilst accessing the internet. To enable this to happen your house will have something called a ‘splitter’ the splitter will divide all incoming signals over a telephone line into signals that are meant to be sent to you DSL modem or signal that are meant to be sent to your telephone.
+{: .d-block}
+
+There are different versions of DSL (e.g. ADSL, SDSL, HDSL, VDSL and VDSL2) all which use different frequencies to carry the data as well a telephone data that travels at its own specific frequency. When data leaves your modem and heads to the ISP it reaches a building called a Central Office (CO) which houses the Digital Subscriber Line Access Multiplexer (DSLAM) and a few routers. The DSLAM performs a similar job to the DSL modem, meaning it converts the analogue signals from the communication line into digital form with which can be used by the routers. Likewise it converts incoming data from the routers that are being sent to houses connected to the DSLAM into analogue signals that can travel along the communication lines to a person house, where their modem will turn it back into digital format.
+
+###### Cable
 {: .fs-4}
 
-##### Optical Fibre
+Unlike Dial Up or DSL, Cable doesn’t use telephone wires but instead uses the coaxial cables that provide your house cable TV.  Cable internet also requires an access specific modem, in this case a cable modem.  Cable, like DSL, has to convert between analogue and digital signals for communication link traversal and computer access. It is done in a similar manner to DSL as they have their own system called a Cable Modem Termination System (CMTS) which sits in a building called the cable head end. Cable internet usually incorporates another type of access medium called Optic Fibre. From the cable head end, nodes are connected by optical fibre cables which can handle lots of data with high speeds. These nodes would then spread out into different suburbs and houses would then generally connect to these nodes using coaxial cables. This system is commonly referred to as Hybrid Fibre Coaxial (HFC) 
+
+###### Optical Fibre
 {: .fs-4}
 
-##### Satellite
+Optical Fibre, often called ‘Optic Fibre’ uses a special type of cable to transmit data made of thin glass. Light beams carrying the data bounce from edge to edge within the cable until it reaches its destination. Optic fibre provides very high data speeds since they data is literally moving at the speed of light. This is why Optic Fibre is often used for trans-ocean cables, connecting different countries together. It also provides natural built in defence mechanisms against attacks that rely on tapping into the physical cable to watch or even alter the information that is being passed through it due to the fact that if you try and tap into an Optic Fibre cable it will just break.
+{: .d-block}
+
+There are different types of connections such a direct fibre which has an Optic Fibre cable dedicated to each household from the CO. However most ISPs find this to be to expensive with little upside to themselves and rather have fewer cables leaving the CO which split into different paths once they get closer to the destinations.
+
+For the houses that dont use HFC, meaning they have Optic Fibre connecting right to their house, they will have what is called an Optical Network Terminator (ONT). For each home's ONT, there are Optic Fibre cables running to a splitter nearby (similar to the splitter in the DSL however the DSL splitter is just for the house in which it is located in whereas the Optic Fibre splitter is in a area which many houses connect to). The splitter then runs the CO of whatever ISP own thes optic fibre infrastructure and connects to a Optical Line Terminator (OLT) which peroms similar actions to a DSLAM, or a CMTS as it provides conversions between signal used for travelling along physical connection and signals used by computers and routers. However unlike DSLAM and CMTS the OLT converts between Optical signals and Electrical signals.
+
+###### Satellite
 {: .fs-4}
 
-##### Cellular
+Satellite as you might have guessed doesn’t use any physical cables to propagate data from your device to the ISPs but rather satellites. For Satalite internet connection three satelites are used:
+
+1. Attached to your house (Or location where you wish to receive internet)
+2. One in space
+3. One at the ISP
+
+The satelite in space allows your home satelite to connect from very remote areas as it doesnt rely on existing infrastrcuture like telephone or cable lines. The space satelite can then relay the information it receives to the ISP, which can then send back responses which will pass through the space satelite back to the customer.
+
+The are significant downsides to using satellite such as low internet speeds, high costs and weather interference but they provide a crucial upside that may be the only option to a select group of individuals. Coverage. The main reason you would use satellite is if you’re in such a rural area that you don’t have access to even telephone lines. An example would be on board a container ship in the middle of the ocean. Satellite would be the only real means to access the internet in such a desolate place. 
+
+###### Cellular
 {: .fs-4}
 
+Cellular uses whats called the Global System for Mobile communication (GSM) which consists of overlapping base station that can receive radio waves and send them on to other stations to connect you to the internet. Different overallping stations are called cells which is where cellular gets its name.  
 
+Code Division Multiple Access (CDMA) is what allows several different users to send data over the same frequency. It allows this by assigning each transmission a code which uniqeully identifies that transmission, and which can be used to modulate their signal.
+
+To access the GSM users need a Subsriber Identity Module (SIM) card. A SIM card is what uniquelly identified you on the GSM and allowed you to connect to it. 
+
+3G was the first cellular technology that allowed common customers to connect to the internet and so came the advancements to 3G such as Long Term Evolution which could transfer data at higher speeds, then 4G and now even 5G. Unlike WIFI which is also based on radio waves, with cellular you can be kilometres away from a cell tower and yet you will still be able to connect to the internet.  
 </div>
 
-<div  markdown="1">
+<div id="redHeading" markdown="1">
 ## Next Step
 {: .fs-7.fw-400 .d-inline-block}
 
 Next
 {: .fs-2 .fw-200 .label .label-red .px-1 .py-0 .d-inline-block .mt-0}
+</div>
 
-Coming
-{: .d-block}
-
+<div id="redHeading" markdown="1">
 ### Practice This Knowledge
 {: .fs-6 .fw-400 .d-inline-block}
+</div>
 
-Next
-{: .fs-2 .fw-200 .label .label-red .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
-
+<div id="redHeading" markdown="1">
 ### What To Study Next?
 {: .fs-6 .fw-400 .d-inline-block}
-
-Next
-{: .fs-2 .fw-200 .label .label-red .px-1 .py-0 .d-inline-block .mt-1}
-
-Coming
-{: .d-block}
-
 </div>
