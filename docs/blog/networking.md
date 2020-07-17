@@ -640,7 +640,7 @@ Generally connect different National ISPs together and therefore provide access 
 The largest ISPs that exists. There are currently around 13 Tier 1 ISPs and they connect some of the largest networks that exist, forming the global internet. They are not customers of any other ISP other than different Tier 1 ISPs.
 {: .d-block}
 
-##### How does and ISP provide me access to the internet?
+##### How does a ISP provide me with access to the internet?
 {: .fs-6 .fw-400 .d-block}
 
 What are all the different ways an ISP can provide me access to the internet? They are:
@@ -703,6 +703,112 @@ Code Division Multiple Access (CDMA) is what allows several different users to s
 To access the GSM users need a Subsriber Identity Module (SIM) card. A SIM card is what uniquelly identified you on the GSM and allowed you to connect to it. 
 
 3G was the first cellular technology that allowed common customers to connect to the internet and so came the advancements to 3G such as Long Term Evolution which could transfer data at higher speeds, then 4G and now even 5G. Unlike WIFI which is also based on radio waves, with cellular you can be kilometres away from a cell tower and yet you will still be able to connect to the internet.  
+
+#### What are the different physical connection types?
+Information has to travel to a from end systems by definition if the internet is going it work. So how does this information travel from the router in hour house to the ISP you have purchased you internet subscription from, and then to the rest of the world? We have briefly discussed [different types of internet access available to you](How-does-a-ISP-provide-me-with-access-to-the-internet?) 
+and so you already have an idea of the different types of physical connections that are used by ISPs. Each type of connection is different and has the pros and cons, the connections are:
+
+1. Twisted-Pair Copper Wire 
+2. Coaxial Cable
+3. Fibre Optics
+4. Satellite Radio
+5. Terrestrial Radio (3g, 4g, LTE, 5g)
+
+###### Twisted-Pair Copper Wire
+{: .fs-4}
+
+For Twisted Pair Copper Wire (TP), you have 2 main types: 
+
+1. Shielded (STP)
+2. Unshielded (UTP)
+
+The difference between STP and UTP is that for each pari of twisted wires within a cable, STP has a shield that covers those pairs unlike UTP which has the pairs push up close to each other within the cable without a boundary between them. Understandable STP provides more protection against Cross Talk and interference than UTP does.
+
+Both types consist of pairs of twisted copper wire packed together in a cable. They use what’s called Balanced Pair Operation which is a differential mode of transmission simply put, The same signal is sent down both wires that are twisted together to the destination however one of the wires carries the opposite signal. This is done so that once the signals meet its destination the different signals received can be examined and noise from interfering signals can be differentiated from actual data that was being sent over the line. If they wires weren’t twisted and there was interference coming from the right hand side, then whatever cable was on the right would have more interference and so it would be hard to examine and determine what is noise and what is actual signal. 
+
+TP wires also avoid ‘Cross Talk’ which is where cables close together can actually interfere with each other, however twisting a pair together actually insulates that pair from being interfered with by a nearby cable. 
+
+‘Twist Rate’ refers to how tightly twisted the wires are together, the higher the twist rate the less cross talk occurs however also the less distance you receive out of your wires. If you are in an area with very little possible interference, a lower twist rate may be more beneficial as you don’t need as much wire however in a situation with lots of possible sources of interference a higher twist rate and/or Shielded Twisted Pair would be the better option.
+
+For STP specifically, you will also have a ground wire, commonly referred to as a drain wire which ensures to electrical current gets into the copper core. The reason STP has this and UTP doesn’t is because the shielding commonly used in STP is a metal foil which can conduct electricity.
+
+Ethernet Cables are TP cables and there are industry standard on how you arrange the 8 individual wires that are in the ethernet cable into the connector that will inevitable be plugged into your devices. The two standard are T-568A and T-568B. The cables inside the ethernet cables are coloured and some stripped. On the connector you will have letters which tell you which cable goes into which slot in the connector. Upper case letter means it is solid colour cable with a colour that starts with the letter given e.g. G, is solid green cable. BR is solid brown cable. A lower case letter means a white cable with coloured stripes, e.g. br is a white cable with brown stripes, b is a white cable with blue stripes.
+
+###### Coaxial Cable
+{: .fs-4}
+
+Coaxial cables are used for cable services. This includes Cable TV and Cable Internet. The coaxial cable itself is build from (Starting from the most inner layer working out):
+1. Centre Conductor
+2. Dielectric Shield
+3. Foil Shield
+4. Braided Shield
+5. Outer Jacket.
+
+The centre conductor is what carries the actual information transmitted, it is immediately covered by a Dielectric shield which is a plastic insulation that makes sure that no conductivity from the wire leaks out. On top of the plastic insulation there is a foil shield and a braided shield which is meant for protection against interference. 
+
+There are two types of coaxial cable:
+
+1. RG-6
+2. RG-59
+
+RG stands for ‘Radio Grade’. RG-6 is generally what will be used for your cable tv. It is more suitable than RG-59 to carry data over longer distances with a higher bandwidth. A big contributor to this increased performance is due to its larger core. The RG-59 is used for shorter distances to perform tasks like analogue video or CCTV. 
+
+Coaxial Cable also has Multiple Channels which is often referred to as ‘Broadband’ in comparison to base band which either uses the whole bandwidth of the cable for data transfer or nothing. Broadband can split the usage of the cable into different frequencies which can send different amounts of data at different times. For Cable internet access over cable tv lines, the digital data is shifted to another frequency as to no interfere with the analogue tv signals. 
+
+
+###### Optical Fibre
+{: .fs-4}
+
+Optic fibre is a very thin and flexible cable that carries light signals. Each pulse of light represents a ‘computer bit’ of information. They are generally made from thin plastic or glass. The light pulses bounce off the walls of the glass until they reach their destination. They allows information to travel a very long distances with very little attenuation.
+
+> > The attenuation is a telecommunication word which refers to reduction within signal strength. This can occur while transmitting signals over lengthy distances. It can be calculated in dB (decibels) in terms of voltage. The function of this is quite opposite to amplification when a signal is transmitted from one place to another place. Once the signal attenuation is extremely high, and then it turns into incoherent. So, most of the networks use repeaters for increasing the signal strength at normal intervals.
+>
+> -- <cite>https://www.elprocus.com/attenuation-in-optical-fibre-types-and-its-causes/ </cite>
+This means Optic fibre requires much fewer repeaters to travel long distances. This characteristic is why it is the ‘go to’ method for physically connecting countries with trans-ocean communication links. 
+
+Optic Fibre is considered a Converged Services which simply means that it can hold many different types of data in a single cable such as:
+
+1. Voice
+2. Video
+3. Data
+
+The cables itself if comprised of (from most inner components working outwards):
+
+1. Core 
+2. Cladding
+3. Coating
+4. Strength Member
+5. Outer Jacket
+
+The core is where the light beams travel through, the coating, strength member and jacket are mainly for protection. However the cladding is important. Cladding can vary in thickness, a thicker cladding produces a softer refraction of the light beams when they bounce off the core walls. Conversely a thinner cladding produces harsher refractions of light that bounce at sharper angles.
+
+Different thickness of cladding are used for different modes of fibre. The two modes are:
+1. Single Mode
+2. Multimode
+
+Single Mode uses a laser to send the light pulses resulting in a much tighter focus in the ray of light. The single mode is better for sending data across longer distances, this mode is what you would likely see being used in the trans-ocean cables. It doesn’t bounce off the edges anywhere near as much as multimode does and only generally occurs when there are curves in the cables which are natural and are subject to the terrain with which these cables are being placed. 
+
+Multimode uses LEDs to send the light pulses resulting in a less focused beam compared to the single mode fibre. Within multimode fibre you have ‘Single Step’ and ‘Graded Index’, they each describe different fibre core properties which results in outcomes with varying pros and cons for each. Step index was created first and is slower than graded index. Graded index is what is commonly used know to transfer data short distances with a range of a few km’s to and from local ISPs. 
+
+###### Satellite Radio
+{: .fs-4}
+
+Satellite Radio as explained in the  [How Does a ISP provide me with access to the internet](How-does-a-ISP-provide-me-with-access-to-the-internet?) uses three satellites to receive and send data through radio waves to and from customers and ISPs. Satellites can communicate with each other in space as well to receive data from one location in the earth and send it to a vastly different location. 
+
+###### Terrestrial Radio (3g, 4g, LTE, and 5g)
+{: .fs-4}
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div id="redHeading" markdown="1">
