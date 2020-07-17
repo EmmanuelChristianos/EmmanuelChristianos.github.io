@@ -572,7 +572,7 @@ Specifically, when you connect the devices in your home to your router, how does
 ##### What is a Modem?
 {: .fs-6 .fw-400 .d-block}
 
-When you connect the devices in your home to your router, how does that then connect you to the internet. Your routers will use a type of ‘broadband’ internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
+When you connect the devices in your home to your router, how does that then connect you to the Internet. Your routers will use a type of ‘broadband’ Internet access to connect you your ‘Internet Service Provider’s’ (ISP) edge router. 
 Most home routers today aren’t just routers, they’re actually 3 different machines compacted into one little box. Those machines are your:
 1. Modem
 2. Router
@@ -584,17 +584,17 @@ You will often hear people use the terms modem and router interchangeable when t
 ##### Modem
 {: .fs-4 .no_toc}
 
-The data that travels along a physical connection to and from the ISP travels in analogue waves, however your computers use digital information.  The modem is responsible for translating that information before your computer receives it so that the computer may understand. Likewise when your computer wants to send information to someone over the internet data needs to leave your computer and travel along some physical mediums, before it does this the modem must convert that digital data back to analogue. 
+The data that travels along a physical connection to and from the ISP travels in analogue waves, however your computers use digital information.  The modem is responsible for translating that information before your computer receives it so that the computer may understand. Likewise when your computer wants to send information to someone over the Internet data needs to leave your computer and travel along some physical mediums, before it does this the modem must convert that digital data back to analogue. 
 
 ##### Router
 {: .fs-4 .no_toc}
 
-Routers analyse the destination IP addresses of packets passing through that router to determine where to send them next. They use things such as routing tables and protocol to help them better understand the landscape of the internet around them. 
+Routers analyze the destination IP addresses of packets passing through that router to determine where to send them next. They use things such as routing tables and protocol to help them better understand the landscape of the Internet around them. 
 
 ##### Wireless Access Point (WAP)
 {: .fs-4 .no_toc}
 
-A Wireless Access Point is a location which allows users to connect to a router through WIFI. Without a wireless access point you would have to be hardwired to a router using a ethernet cable to connect to the internet. (Or use other radio wave based access technologies such as 3g,4g,LTE,5g satellite etc) The Wireless access point then connects to the router using a ethernet cables, so you connect to the WAP through radio waves and the WAP connect you to the router through a ethernet cable. 
+A Wireless Access Point is a location which allows users to connect to a router through WIFI. Without a wireless access point you would have to be hardwired to a router using a Ethernet cable to connect to the Internet. (Or use other radio wave based access technologies such as 3g,4g,LTE,5g satellite etc) The Wireless access point then connects to the router using a Ethernet cables, so you connect to the WAP through radio waves and the WAP connect you to the router through a Ethernet cable. 
 
 ##### What Is A ISP?
 {: .fs-6 .fw-400 .d-block}
@@ -608,7 +608,7 @@ Firstly, what is an ISP? An ISP is a company that provides you access to interne
 And the list goes on. They essentially fill the role of connecting different networks together. There are different tiers of ISP which mainly differ in the size of the networks that they connect together.
 {: .d-block}
  
-Since it is the job of an ISP to connect different networks together, and ISPs are essentially really big networks consisting of lots of smaller networks, ISPs can be connected together by larger ISPs. This is essentially the job of the larger ISPs in the internet, however no matter how big the ISPs are they can always provide access to the smallest network such as a home network. (Generally they don’t since most home networks would be provided access through a smaller ISP.)
+Since it is the job of an ISP to connect different networks together, and ISPs are essentially really big networks consisting of lots of smaller networks, ISPs can be connected together by larger ISPs. This is essentially the job of the larger ISPs in the Internet, however no matter how big the ISPs are they can always provide access to the smallest network such as a home network. (Generally they don’t since most home networks would be provided access through a smaller ISP.)
 {: .d-block}
  
 ISPs that refer to a smaller area don’t actually have to be smaller than an ISP that refers to a larger area. E.g. A national ISP for a very small country might consists of fewer networks than a Regional ISP has for a much larger country. However generally the case is that a those smaller ISPs consist of fewer networks. The different types of ISPs approximately from smallest to largest are:
@@ -637,30 +637,30 @@ Generally connect different National ISPs together and therefore provide access 
 ##### ‘Tier 1 ISPs’
 {: .fs-4 .no_toc}
 
-The largest ISPs that exists. There are currently around 13 Tier 1 ISPs and they connect some of the largest networks that exist, forming the global internet. They are not customers of any other ISP other than different Tier 1 ISPs.
+The largest ISPs that exists. There are currently around 13 Tier 1 ISPs and they connect some of the largest networks that exist, forming the global Internet. They are not customers of any other ISP other than different Tier 1 ISPs.
 {: .d-block}
 
-##### How does a ISP provide me with access to the internet?
+##### How does a ISP provide me with access to the Internet?
 {: .fs-6 .fw-400 .d-block}
 
-What are all the different ways an ISP can provide me access to the internet? They are:
+What are all the different ways an ISP can provide me access to the Internet? They are:
  
 1. Dial Up
 2. Digital Subscriber Line (DSL)
 3. Cable
-4. Optical Fibre
+4. Optical Fiber
 5. Satellite
 6. Cellular
 
 ###### Dial up
 {: .fs-4}
 
-Dial Up is an older type of internet access that is near extinct due to newer types of access like DSL. Dial Up utilises your telephone line and a dial up modem to connect to the internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fibre.
+Dial Up is an older type of Internet access that is near extinct due to newer types of access like DSL. Dial Up utilities your telephone line and a dial up modem to connect to the Internet. It offers very slow speed with a max of 56Kbps. (For reference the average download speed in the Australia is 40Mbps which is 714x faster.)  Most houses don’t use dial up anymore and instead use DSL, Cable or Optic Fiber.
  
 ###### Digital Subscriber Line (DSL)
 {: .fs-4}
 
-DSL like Dial Up makes use of the existing telephone line you have connected to your house or building. DSL requires that you have a DSL modem as has several improvements on Dial Up most notably that is is much faster and allows you to talk on the phone whilst accessing the internet. To enable this to happen your house will have something called a ‘splitter’ the splitter will divide all incoming signals over a telephone line into signals that are meant to be sent to you DSL modem or signal that are meant to be sent to your telephone.
+DSL like Dial Up makes use of the existing telephone line you have connected to your house or building. DSL requires that you have a DSL modem as has several improvements on Dial Up most notably that is is much faster and allows you to talk on the phone whilst accessing the Internet. To enable this to happen your house will have something called a ‘splitter’ the splitter will divide all incoming signals over a telephone line into signals that are meant to be sent to you DSL modem or signal that are meant to be sent to your telephone.
 {: .d-block}
 
 There are different versions of DSL (e.g. ADSL, SDSL, HDSL, VDSL and VDSL2) all which use different frequencies to carry the data as well a telephone data that travels at its own specific frequency. When data leaves your modem and heads to the ISP it reaches a building called a Central Office (CO) which houses the Digital Subscriber Line Access Multiplexer (DSLAM) and a few routers. The DSLAM performs a similar job to the DSL modem, meaning it converts the analogue signals from the communication line into digital form with which can be used by the routers. Likewise it converts incoming data from the routers that are being sent to houses connected to the DSLAM into analogue signals that can travel along the communication lines to a person house, where their modem will turn it back into digital format.
@@ -668,49 +668,51 @@ There are different versions of DSL (e.g. ADSL, SDSL, HDSL, VDSL and VDSL2) all 
 ###### Cable
 {: .fs-4}
 
-Unlike Dial Up or DSL, Cable doesn’t use telephone wires but instead uses the coaxial cables that provide your house cable TV.  Cable internet also requires an access specific modem, in this case a cable modem.  Cable, like DSL, has to convert between analogue and digital signals for communication link traversal and computer access. It is done in a similar manner to DSL as they have their own system called a Cable Modem Termination System (CMTS) which sits in a building called the cable head end. Cable internet usually incorporates another type of access medium called Optic Fibre. From the cable head end, nodes are connected by optical fibre cables which can handle lots of data with high speeds. These nodes would then spread out into different suburbs and houses would then generally connect to these nodes using coaxial cables. This system is commonly referred to as Hybrid Fibre Coaxial (HFC) 
+Unlike Dial Up or DSL, Cable doesn’t use telephone wires but instead uses the coaxial cables that provide your house cable TV.  Cable Internet also requires an access specific modem, in this case a cable modem.  Cable, like DSL, has to convert between analogue and digital signals for communication link traversal and computer access. It is done in a similar manner to DSL as they have their own system called a Cable Modem Termination System (CMTS) which sits in a building called the cable head end. Cable Internet usually incorporates another type of access medium called Optic Fiber. From the cable head end, nodes are connected by optical fiber cables which can handle lots of data with high speeds. These nodes would then spread out into different suburbs and houses would then generally connect to these nodes using coaxial cables. This system is commonly referred to as Hybrid Fiber Coaxial (HFC) 
 
-###### Optical Fibre
+###### Optical Fiber
 {: .fs-4}
 
-Optical Fibre, often called ‘Optic Fibre’ uses a special type of cable to transmit data made of thin glass. Light beams carrying the data bounce from edge to edge within the cable until it reaches its destination. Optic fibre provides very high data speeds since they data is literally moving at the speed of light. This is why Optic Fibre is often used for trans-ocean cables, connecting different countries together. It also provides natural built in defence mechanisms against attacks that rely on tapping into the physical cable to watch or even alter the information that is being passed through it due to the fact that if you try and tap into an Optic Fibre cable it will just break.
+Optical Fiber, often called ‘Optic Fiber’ uses a special type of cable to transmit data made of thin glass. Light beams carrying the data bounce from edge to edge within the cable until it reaches its destination. Optic fiber provides very high data speeds since they data is literally moving at the speed of light. This is why Optic Fiber is often used for trans-ocean cables, connecting different countries together. It also provides natural built in defense mechanisms against attacks that rely on tapping into the physical cable to watch or even alter the information that is being passed through it due to the fact that if you try and tap into an Optic Fiber cable it will just break.
 {: .d-block}
 
-There are different types of connections such a direct fibre which has an Optic Fibre cable dedicated to each household from the CO. However most ISPs find this to be to expensive with little upside to themselves and rather have fewer cables leaving the CO which split into different paths once they get closer to the destinations.
+There are different types of connections such a direct fiber which has an Optic Fiber cable dedicated to each household from the CO. However most ISPs find this to be to expensive with little upside to themselves and rather have fewer cables leaving the CO which split into different paths once they get closer to the destinations.
 
-For the houses that dont use HFC, meaning they have Optic Fibre connecting right to their house, they will have what is called an Optical Network Terminator (ONT). For each home's ONT, there are Optic Fibre cables running to a splitter nearby (similar to the splitter in the DSL however the DSL splitter is just for the house in which it is located in whereas the Optic Fibre splitter is in a area which many houses connect to). The splitter then runs the CO of whatever ISP own thes optic fibre infrastructure and connects to a Optical Line Terminator (OLT) which peroms similar actions to a DSLAM, or a CMTS as it provides conversions between signal used for travelling along physical connection and signals used by computers and routers. However unlike DSLAM and CMTS the OLT converts between Optical signals and Electrical signals.
+For the houses that don't use HFC, meaning they have Optic Fiber connecting right to their house, they will have what is called an Optical Network Terminator (ONT). For each home's ONT, there are Optic Fiber cables running to a splitter nearby (similar to the splitter in the DSL however the DSL splitter is just for the house in which it is located in whereas the Optic Fiber splitter is in a area which many houses connect to). The splitter then runs the CO of whatever ISP own the optic fiber infrastructure and connects to a Optical Line Terminator (OLT) which performs similar actions to a DSLAM, or a CMTS as it provides conversions between signal used for traveling along physical connection and signals used by computers and routers. However unlike DSLAM and CMTS the OLT converts between Optical signals and Electrical signals.
 
 ###### Satellite
 {: .fs-4}
 
-Satellite as you might have guessed doesn’t use any physical cables to propagate data from your device to the ISPs but rather satellites. For Satalite internet connection three satelites are used:
+Satellite as you might have guessed doesn’t use any physical cables to propagate data from your device to the ISPs but rather satellites. For Satellite Internet connection three satellites are used:
 
-1. Attached to your house (Or location where you wish to receive internet)
+1. Attached to your house (Or location where you wish to receive Internet)
 2. One in space
 3. One at the ISP
 
-The satelite in space allows your home satelite to connect from very remote areas as it doesnt rely on existing infrastrcuture like telephone or cable lines. The space satelite can then relay the information it receives to the ISP, which can then send back responses which will pass through the space satelite back to the customer.
+The satellite in space allows your home satellite to connect from very remote areas as it doesn't rely on existing infrastructure like telephone or cable lines. The space satellite can then relay the information it receives to the ISP, which can then send back responses which will pass through the space satellite back to the customer.
 
-The are significant downsides to using satellite such as low internet speeds, high costs and weather interference but they provide a crucial upside that may be the only option to a select group of individuals. Coverage. The main reason you would use satellite is if you’re in such a rural area that you don’t have access to even telephone lines. An example would be on board a container ship in the middle of the ocean. Satellite would be the only real means to access the internet in such a desolate place. 
+The are significant downsides to using satellite such as low Internet speeds, high costs and weather interference but they provide a crucial upside that may be the only option to a select group of individuals. Coverage. The main reason you would use satellite is if you’re in such a rural area that you don’t have access to even telephone lines. An example would be on board a container ship in the middle of the ocean. Satellite would be the only real means to access the Internet in such a desolate place. 
 
 ###### Cellular
 {: .fs-4}
 
-Cellular uses whats called the Global System for Mobile communication (GSM) which consists of overlapping base station that can receive radio waves and send them on to other stations to connect you to the internet. Different overallping stations are called cells which is where cellular gets its name.  
+Cellular uses whats called the Global System for Mobile communication (GSM) which consists of overlapping base station that can receive radio waves and send them on to other stations to connect you to the Internet. Different overlapping stations are called cells which is where cellular gets its name.  
 
-Code Division Multiple Access (CDMA) is what allows several different users to send data over the same frequency. It allows this by assigning each transmission a code which uniqeully identifies that transmission, and which can be used to modulate their signal.
+Code Division Multiple Access (CDMA) is what allows several different users to send data over the same frequency. It allows this by assigning each transmission a code which uniquely identifies that transmission, and which can be used to modulate their signal.
 
-To access the GSM users need a Subsriber Identity Module (SIM) card. A SIM card is what uniquelly identified you on the GSM and allowed you to connect to it. 
+To access the GSM users need a Subscriber Identity Module (SIM) card. A SIM card is what uniquely identified you on the GSM and allowed you to connect to it. 
 
-3G was the first cellular technology that allowed common customers to connect to the internet and so came the advancements to 3G such as Long Term Evolution which could transfer data at higher speeds, then 4G and now even 5G. Unlike WIFI which is also based on radio waves, with cellular you can be kilometres away from a cell tower and yet you will still be able to connect to the internet.  
+3G was the first cellular technology that allowed common customers to connect to the Internet and so came the advancements to 3G such as Long Term Evolution which could transfer data at higher speeds, then 4G and now even 5G. Unlike WIFI which is also based on radio waves, with cellular you can be kilometers away from a cell tower and yet you will still be able to connect to the Internet.  
 
 #### What are the different physical connection types?
-Information has to travel to a from end systems by definition if the internet is going it work. So how does this information travel from the router in hour house to the ISP you have purchased you internet subscription from, and then to the rest of the world? We have briefly discussed [different types of internet access available to you](How-does-a-ISP-provide-me-with-access-to-the-internet?) 
+{: .fs-6 .fw-400 .d-block}
+
+Information has to travel to a from end systems by definition if the Internet is going it work. So how does this information travel from the router in hour house to the ISP you have purchased you Internet subscription from, and then to the rest of the world? We have briefly discussed [different types of Internet access available to you](#how-does-a-isp-provide-me-with-access-to-the-internet){:.fs-4 .md-0 .mr-0} 
 and so you already have an idea of the different types of physical connections that are used by ISPs. Each type of connection is different and has the pros and cons, the connections are:
 
 1. Twisted-Pair Copper Wire 
 2. Coaxial Cable
-3. Fibre Optics
+3. Fiber Optics
 4. Satellite Radio
 5. Terrestrial Radio (3g, 4g, LTE, 5g)
 
@@ -722,7 +724,7 @@ For Twisted Pair Copper Wire (TP), you have 2 main types:
 1. Shielded (STP)
 2. Unshielded (UTP)
 
-The difference between STP and UTP is that for each pari of twisted wires within a cable, STP has a shield that covers those pairs unlike UTP which has the pairs push up close to each other within the cable without a boundary between them. Understandable STP provides more protection against Cross Talk and interference than UTP does.
+The difference between STP and UTP is that for each pair of twisted wires within a cable, STP has a shield that covers those pairs unlike UTP which has the pairs push up close to each other within the cable without a boundary between them. Understandable STP provides more protection against Cross Talk and interference than UTP does.
 
 Both types consist of pairs of twisted copper wire packed together in a cable. They use what’s called Balanced Pair Operation which is a differential mode of transmission simply put, The same signal is sent down both wires that are twisted together to the destination however one of the wires carries the opposite signal. This is done so that once the signals meet its destination the different signals received can be examined and noise from interfering signals can be differentiated from actual data that was being sent over the line. If they wires weren’t twisted and there was interference coming from the right hand side, then whatever cable was on the right would have more interference and so it would be hard to examine and determine what is noise and what is actual signal. 
 
@@ -732,41 +734,45 @@ TP wires also avoid ‘Cross Talk’ which is where cables close together can ac
 
 For STP specifically, you will also have a ground wire, commonly referred to as a drain wire which ensures to electrical current gets into the copper core. The reason STP has this and UTP doesn’t is because the shielding commonly used in STP is a metal foil which can conduct electricity.
 
-Ethernet Cables are TP cables and there are industry standard on how you arrange the 8 individual wires that are in the ethernet cable into the connector that will inevitable be plugged into your devices. The two standard are T-568A and T-568B. The cables inside the ethernet cables are coloured and some stripped. On the connector you will have letters which tell you which cable goes into which slot in the connector. Upper case letter means it is solid colour cable with a colour that starts with the letter given e.g. G, is solid green cable. BR is solid brown cable. A lower case letter means a white cable with coloured stripes, e.g. br is a white cable with brown stripes, b is a white cable with blue stripes.
+Ethernet Cables are TP cables and there are industry standard on how you arrange the 8 individual wires that are in the Ethernet cable into the connector that will inevitable be plugged into your devices. The two standard are T-568A and T-568B. The cables inside the Ethernet cables are colored and some stripped. On the connector you will have letters which tell you which cable goes into which slot in the connector. Upper case letter means it is solid color cable with a color that starts with the letter given e.g. G, is solid green cable. BR is solid brown cable. A lower case letter means a white cable with colored stripes, e.g. br is a white cable with brown stripes, b is a white cable with blue stripes.
 
 ###### Coaxial Cable
 {: .fs-4}
 
 Coaxial cables are used for cable services. This includes Cable TV and Cable Internet. The coaxial cable itself is build from (Starting from the most inner layer working out):
-1. Centre Conductor
+1. Center Conductor
 2. Dielectric Shield
 3. Foil Shield
 4. Braided Shield
 5. Outer Jacket.
 
-The centre conductor is what carries the actual information transmitted, it is immediately covered by a Dielectric shield which is a plastic insulation that makes sure that no conductivity from the wire leaks out. On top of the plastic insulation there is a foil shield and a braided shield which is meant for protection against interference. 
+The center conductor is what carries the actual information transmitted, it is immediately covered by a Dielectric shield which is a plastic insulation that makes sure that no conductivity from the wire leaks out. On top of the plastic insulation there is a foil shield and a braided shield which is meant for protection against interference. 
 
 There are two types of coaxial cable:
 
 1. RG-6
 2. RG-59
 
-RG stands for ‘Radio Grade’. RG-6 is generally what will be used for your cable tv. It is more suitable than RG-59 to carry data over longer distances with a higher bandwidth. A big contributor to this increased performance is due to its larger core. The RG-59 is used for shorter distances to perform tasks like analogue video or CCTV. 
+RG stands for ‘Radio Grade’. RG-6 is generally what will be used for your cable TV. It is more suitable than RG-59 to carry data over longer distances with a higher bandwidth. A big contributor to this increased performance is due to its larger core. The RG-59 is used for shorter distances to perform tasks like analogue video or CCTV. 
 
-Coaxial Cable also has Multiple Channels which is often referred to as ‘Broadband’ in comparison to base band which either uses the whole bandwidth of the cable for data transfer or nothing. Broadband can split the usage of the cable into different frequencies which can send different amounts of data at different times. For Cable internet access over cable tv lines, the digital data is shifted to another frequency as to no interfere with the analogue tv signals. 
+Coaxial Cable also has Multiple Channels which is often referred to as ‘Broadband’ in comparison to base band which either uses the whole bandwidth of the cable for data transfer or nothing. Broadband can split the usage of the cable into different frequencies which can send different amounts of data at different times. For Cable Internet access over cable TV lines, the digital data is shifted to another frequency as to no interfere with the analogue TV signals. 
 
 
-###### Optical Fibre
+###### Optical Fiber
 {: .fs-4}
 
-Optic fibre is a very thin and flexible cable that carries light signals. Each pulse of light represents a ‘computer bit’ of information. They are generally made from thin plastic or glass. The light pulses bounce off the walls of the glass until they reach their destination. They allows information to travel a very long distances with very little attenuation.
+Optic fiber is a very thin and flexible cable that carries light signals. Each pulse of light represents a ‘computer bit’ of information. They are generally made from thin plastic or glass. The light pulses bounce off the walls of the glass until they reach their destination. They allows information to travel a very long distances with very little attenuation.
 
-> > The attenuation is a telecommunication word which refers to reduction within signal strength. This can occur while transmitting signals over lengthy distances. It can be calculated in dB (decibels) in terms of voltage. The function of this is quite opposite to amplification when a signal is transmitted from one place to another place. Once the signal attenuation is extremely high, and then it turns into incoherent. So, most of the networks use repeaters for increasing the signal strength at normal intervals.
+> The attenuation is a telecommunication word which refers to reduction within signal strength. This can occur while transmitting signals over lengthy distances. It can be calculated in dB (decibels) in terms of voltage. The function of this is quite opposite to amplification when a signal is transmitted from one place to another place. Once the signal attenuation is extremely high, and then it turns into incoherent. So, most of the networks use repeaters for increasing the signal strength at normal intervals.
+><br>
 >
 > -- <cite>https://www.elprocus.com/attenuation-in-optical-fibre-types-and-its-causes/ </cite>
-This means Optic fibre requires much fewer repeaters to travel long distances. This characteristic is why it is the ‘go to’ method for physically connecting countries with trans-ocean communication links. 
+{: .float-right}
 
-Optic Fibre is considered a Converged Services which simply means that it can hold many different types of data in a single cable such as:
+
+This means Optic fiber requires much fewer repeaters to travel long distances. This characteristic is why it is the ‘go to’ method for physically connecting countries with trans-ocean communication links. 
+
+Optic Fiber is considered a Converged Services which simply means that it can hold many different types of data in a single cable such as:
 
 1. Voice
 2. Video
@@ -782,32 +788,61 @@ The cables itself if comprised of (from most inner components working outwards):
 
 The core is where the light beams travel through, the coating, strength member and jacket are mainly for protection. However the cladding is important. Cladding can vary in thickness, a thicker cladding produces a softer refraction of the light beams when they bounce off the core walls. Conversely a thinner cladding produces harsher refractions of light that bounce at sharper angles.
 
-Different thickness of cladding are used for different modes of fibre. The two modes are:
+Different thickness of cladding are used for different modes of fiber. The two modes are:
 1. Single Mode
-2. Multimode
+2. Multi-mode
 
-Single Mode uses a laser to send the light pulses resulting in a much tighter focus in the ray of light. The single mode is better for sending data across longer distances, this mode is what you would likely see being used in the trans-ocean cables. It doesn’t bounce off the edges anywhere near as much as multimode does and only generally occurs when there are curves in the cables which are natural and are subject to the terrain with which these cables are being placed. 
+Single Mode uses a laser to send the light pulses resulting in a much tighter focus in the ray of light. The single mode is better for sending data across longer distances, this mode is what you would likely see being used in the trans-ocean cables. It doesn’t bounce off the edges anywhere near as much as multi-mode does and only generally occurs when there are curves in the cables which are natural and are subject to the terrain with which these cables are being placed. 
 
-Multimode uses LEDs to send the light pulses resulting in a less focused beam compared to the single mode fibre. Within multimode fibre you have ‘Single Step’ and ‘Graded Index’, they each describe different fibre core properties which results in outcomes with varying pros and cons for each. Step index was created first and is slower than graded index. Graded index is what is commonly used know to transfer data short distances with a range of a few km’s to and from local ISPs. 
+Multi-mode uses LEDs to send the light pulses resulting in a less focused beam compared to the single mode fiber. Within multi-mode fiber you have ‘Single Step’ and ‘Graded Index’, they each describe different fiber core properties which results in outcomes with varying pros and cons for each. Step index was created first and is slower than graded index. Graded index is what is commonly used know to transfer data short distances with a range of a few KM’s to and from local ISPs. 
 
 ###### Satellite Radio
 {: .fs-4}
 
-Satellite Radio as explained in the  [How Does a ISP provide me with access to the internet](How-does-a-ISP-provide-me-with-access-to-the-internet?) uses three satellites to receive and send data through radio waves to and from customers and ISPs. Satellites can communicate with each other in space as well to receive data from one location in the earth and send it to a vastly different location. 
+Satellite Radio as explained in the  [How Does a ISP provide me with access to the Internet](#how-does-a-isp-provide-me-with-access-to-the-internet){:.fs-4 .md-0 .mr-0} section uses three satellites to receive and send data through radio waves to and from customers and ISPs. Satellites can communicate with each other in space as well to receive data from one location in the earth and send it to a vastly different location.
 
 ###### Terrestrial Radio (3g, 4g, LTE, and 5g)
 {: .fs-4}
 
+Terrestrial Radio waves are simply waves that propagate within the earths atmosphere. They aren't directed towards satellites but rather directed to and from cell towers, which is why when individuals use this method of data transfer to connect to the Internet they often call it cellular. The different categories for Terrestrial radio in relation to internet data transfer are:
 
+1. 1g (not used anymore)
+2. 2g (not used anymore)
+3. 3g (still used)
+4. 4g (most prevalent)
+5. 5g (near future)
 
+Each generation transfers data by encoding that data into radio waves, however each generation increase comes with less latency and higher access speeds.
 
+#### Packet Switched Networks
+{: .fs-6 .fw-400 .d-block}
 
+Coming
 
+##### Store-and-forward Transmission
+{: .fs-4}
 
+Coming
 
+##### What are Forwarding Tables
+{: .fs-4 }
 
+Coming
 
+#### Circuit Switched Networks
+{: .fs-6 .fw-400 .d-block}
 
+Coming
+
+##### Multiplexing in Circuit-Switched Networks 
+{: .fs-4}
+
+Coming
+
+#### Packet vs Circuit switching
+{: .fs-6 .fw-400 .d-block}
+
+Coming
 
 </div>
 
