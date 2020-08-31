@@ -28,6 +28,10 @@ permalink: docs/blog
 [Network Infrastructure](/docs/blog/networking/){: .btn .bg-purple .px-9 .fs-6 .py-4 .text-center .d-block}
 </span>
 
+<span>
+[Mathematics](/docs/blog/mathematics/){:.btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block}
+</span>
+
 </div>
 
 ## Chapter Structure
