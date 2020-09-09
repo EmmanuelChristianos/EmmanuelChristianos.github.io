@@ -1,13 +1,13 @@
 ---
 layout: default
-title: CompTIA A+
+title: CompTIA A+ 220-1001 (Core 1)
 parent: Certifications
 ---
 
 # CompTIA A+ Certification
 {: .no_toc .fs-9}
 
-This Chapter covers the majority of the core knowledge that is tested in the CompTIA A+ Certification exam. This chapter comes with a Github repository which will contain practice questions and exams for you to quiz yourself with. 
+This Chapter covers the majority of the core knowledge that is tested in the CompTIA A+ 220-1001 (Core 1) Certification exam. This chapter comes with a Github repository which will contain practice questions and exams for you to quiz yourself with. 
 {: .fs-6 .fw-300 }
 
 [View it on GitHub](https://github.com/EmmanuelChristianos/EmmanuelChristianos.github.io){: .btn .fs-5 .mb-4 .mb-md-0 .no_toc}

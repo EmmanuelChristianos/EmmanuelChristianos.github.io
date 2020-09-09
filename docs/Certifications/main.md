@@ -13,6 +13,10 @@ permalink: docs/Certifications
 <div class="code-example" markdown="1">
 
 <span>
-[CompTIA A+](/docs/Certifications/a+/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[CompTIA A+ 220-1001 (Core 1)](/docs/Certifications/A+Core1.md/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+</span>
+
+<span>
+[CompTIA A+ 220-1002 (Core 2)](/docs/Certifications/A+Core2.md/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>
