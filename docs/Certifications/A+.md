@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Certifications
-parent: Blog
+title: CompTIA A+
+parent: Certifications
 ---
 
 # CompTIA A+ Certification

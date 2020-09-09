@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Network Infrastructure
-parent: Blog
+parent: Networking
 ---
 
 # Networking Fundamentals

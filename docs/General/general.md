@@ -1,8 +1,7 @@
 ---
 layout: default
 title: General Security
-parent: Blog
-nav_exclude: true
+parent: General
 ---
 
 # COMING SOON

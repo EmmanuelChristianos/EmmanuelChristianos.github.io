@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Mathematics
-parent: Blog
+title: Prerequisite Mathematics
+parent: Mathematics
 ---
 
 # Mathematics
