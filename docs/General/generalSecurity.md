@@ -17,3 +17,5 @@ This blog will keep up to date on the security topics I am currently looking int
 ## Table of Contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}

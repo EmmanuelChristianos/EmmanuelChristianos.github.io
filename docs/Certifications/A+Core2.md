@@ -16,3 +16,6 @@ This Chapter covers the majority of the core knowledge that is tested in the Com
 
 ## Table of Contents
 {: .no_toc .text-delta }
+
+1. TOC
+{:toc}
