@@ -1,13 +1,13 @@
 ---
 layout: default
-title: C Exploits
-parent: Programming
+title: General Security
+parent: General
 ---
- 
-# C Exploits
+
+# Security News
 {: .no_toc .fs-9}
 
-This Chapter is an introduction into common C vulnerabilities and how they are exploited. (COMING SOON)
+This blog will keep up to date on the security topics I am currently looking into. (COMING SOON)
 {: .fs-6 .fw-300 }
 
 [View it on GitHub](https://github.com/EmmanuelChristianos/EmmanuelChristianos.github.io){: .btn .fs-5 .mb-4 .mb-md-0 .no_toc}
@@ -16,3 +16,4 @@ This Chapter is an introduction into common C vulnerabilities and how they are e
 
 ## Table of Contents
 {: .no_toc .text-delta }
+

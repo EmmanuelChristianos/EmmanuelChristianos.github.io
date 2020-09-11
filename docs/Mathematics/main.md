@@ -13,6 +13,6 @@ permalink: docs/Mathematics
 <div class="code-example" markdown="1">
 
 <span>
-[Prerequisite Mathematics](/docs/Mathematics/mathematics.md/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[Prerequisite Mathematics](mathematics){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>

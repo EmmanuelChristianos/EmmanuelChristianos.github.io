@@ -13,7 +13,7 @@ permalink: docs/Security
 <div class="code-example" markdown="1">
 
 <span>
-[Binary Exploitations](/docs/blog/binaryExploit/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[Binary Exploitations](binaryExploit){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>
 

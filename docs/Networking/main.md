@@ -13,6 +13,6 @@ permalink: docs/Networking
 <div class="code-example" markdown="1">
 
 <span>
-[Intro To Networking](docs/Networking/networking.md){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[Intro To Networking](networking){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>

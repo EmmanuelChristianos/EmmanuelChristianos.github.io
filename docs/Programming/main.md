@@ -13,6 +13,6 @@ permalink: docs/Programming
 <div class="code-example" markdown="1">
 
 <span>
-[C Exploits](/docs/Programming/cexploits.md){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[C Exploits](cexploits){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>

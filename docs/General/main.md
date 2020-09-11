@@ -13,6 +13,10 @@ permalink: docs/General
 <div class="code-example" markdown="1">
 
 <span>
-[General](/docs/General/general.md/){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+[General Security](generalSecurity){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
+</span>
+
+<span>
+[Learning Tips](learningTips){: .btn .btn-purple .fs-6 .px-7 .py-4 .text-center .d-block }
 </span>
 </div>
