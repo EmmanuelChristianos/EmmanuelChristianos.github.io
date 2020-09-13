@@ -19,3 +19,7 @@ This Chapter covers the majority of the core knowledge that is tested in the Com
 
 1. TOC
 {:toc}
+
+## Working with permissions and groups
+{: .fs-6 .fw-400 .d-block}
+
